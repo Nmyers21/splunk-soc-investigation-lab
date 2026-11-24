@@ -1,0 +1,16 @@
+# Authentication investigation checklist
+- [ ] Confirm CSV fields, `_time`, timezone, index, source type, selected date range and duplicates.
+- [ ] Record the exact query and version. Start with event distributions and expected business behavior.
+- [ ] Establish identity role, service/admin status, expected origins, destinations and hours from independent context.
+- [ ] Review failures by both source and account; distinguish volume, breadth, repeated retries and time windows.
+- [ ] Correlate failures with subsequent successes using account, source and destination; verify strict event order.
+- [ ] Examine logon type and NTLM/Kerberos context. Remote access, network logons and interactive sessions differ.
+- [ ] Correlate 4648 and 4672 carefully. Explicit credentials do not guarantee success; 4672 does not prove escalation.
+- [ ] Compare service-account origins against an earlier baseline; document incomplete history.
+- [ ] Check travel/VPN, shared NAT, migrations, maintenance and password resets before deciding activity is malicious.
+- [ ] Build a timeline with explicit timezones and record IDs; note absent session IDs and missing telemetry.
+- [ ] Identify corroboration needed from Defender endpoint/process telemetry, identity/session records, network logs and asset ownership. These sources are not present in this lab.
+- [ ] Assess confidence, potential impact and scope; distinguish observed behavior from inferred intent.
+- [ ] Propose proportionate containment and remediation; record approval and business impact before real actions.
+- [ ] Fill your report template, save your own screenshots and record rule tuning and lessons learned.
+- [ ] After completing the investigation, privately compare your findings with the instructor key if you choose.

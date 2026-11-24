@@ -1,0 +1,3 @@
+index=soc_lab sourcetype="soc:windows:auth:csv" EventCode=4625
+| stats count AS failures values(Failure_Reason) AS reasons by Account_Name Source_Network_Address ComputerName
+| sort - failures

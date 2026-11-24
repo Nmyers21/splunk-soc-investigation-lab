@@ -1,0 +1,34 @@
+# Instructor materials and source containing solutions
+instructor_answer_key.json
+**/instructor_answer_key.json
+generate_logs.py
+# Credentials and local environments
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+# Generated findings and personal investigation artifacts stay private by default
+# Explicitly reviewed project screenshots are included below.
+reports/*
+!reports/INCIDENT_REPORT_TEMPLATE.md
+!reports/README.md
+screenshots/*
+!screenshots/README.md
+data/*
+!data/README.md
+!data/example_events.json
+!screenshots/01_failed_logins_by_account.png
+!screenshots/02_failed_logins_by_account_and_source.png
+!screenshots/03_account_authentication_timeline.png
+!screenshots/04_authentication_outcome_counts.png
+!screenshots/05_authentication_timeline_with_logon_type.png
+!screenshots/06_post_authentication_account_activity.png
+!screenshots/07_failed_authentication_account_breadth_by_source.png
+!screenshots/08_authentication_outcomes_by_account_for_source.png
+!screenshots/09_account_breadth_in_15_minute_windows.png
+!screenshots/10_password_spraying_alert_configuration.png

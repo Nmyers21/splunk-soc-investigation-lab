@@ -1,0 +1,6 @@
+index=soc_lab sourcetype="soc:windows:auth:csv" EventCode=4625
+| sort 0 _time EventRecordID
+| streamstats time_window=10m count AS failures by Account_Name Source_Network_Address ComputerName
+| where failures>=10
+| table _time Account_Name Source_Network_Address ComputerName failures EventRecordID
+| where _time>=relative_time(now(),"-5m@m")

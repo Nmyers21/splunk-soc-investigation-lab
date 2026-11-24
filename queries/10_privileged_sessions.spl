@@ -1,0 +1,7 @@
+index=soc_lab sourcetype="soc:windows:auth:csv" (EventCode=4625 OR EventCode=4624 OR EventCode=4672)
+| sort 0 _time EventRecordID
+| streamstats time_window=15m count(eval(EventCode=4625)) AS recent_failures count(eval(EventCode=4624)) AS recent_logons by Account_Name Source_Network_Address ComputerName
+| eval local_hour=tonumber(substr(timestamp,12,2))
+| where EventCode=4672
+| eval review_reason=case(recent_failures>=3,"Recent authentication failures",local_hour<8 OR local_hour>=18,"Outside business hours",true(),"Baseline review")
+| table _time Account_Name Source_Network_Address ComputerName recent_failures recent_logons local_hour review_reason EventRecordID

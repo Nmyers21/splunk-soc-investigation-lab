@@ -1,0 +1,1001 @@
+timestamp,EventCode,Account_Name,Source_Network_Address,ComputerName,Logon_Type,Authentication_Package,Workstation_Name,Status,Failure_Reason,Department,Source_Country,EventRecordID
+2026-11-16T01:04:52-06:00,4624,svc_monitor,10.24.20.13,NS-DC01,3,Kerberos,NS-APP01,Success,,IT,United States,1000001
+2026-11-16T01:06:43-06:00,4624,svc_backup,10.24.20.11,NS-DC01,3,Kerberos,NS-FS01,Success,,IT,United States,1000002
+2026-11-16T01:12:15-06:00,4624,svc_report,10.24.20.12,NS-DC02,3,Kerberos,NS-SQL01,Success,,IT,United States,1000003
+2026-11-16T01:14:11-06:00,4624,svc_deploy,10.24.20.13,NS-DC02,3,Kerberos,NS-APP01,Success,,IT,United States,1000004
+2026-11-16T01:14:19-06:00,4624,svc_sql,10.24.20.12,NS-DC01,3,Kerberos,NS-SQL01,Success,,IT,United States,1000005
+2026-11-16T01:14:52-06:00,4634,svc_monitor,10.24.20.13,NS-DC01,3,Kerberos,NS-APP01,Logoff,,IT,United States,1000006
+2026-11-16T01:16:43-06:00,4634,svc_backup,10.24.20.11,NS-DC01,3,Kerberos,NS-FS01,Logoff,,IT,United States,1000007
+2026-11-16T01:22:15-06:00,4634,svc_report,10.24.20.12,NS-DC02,3,Kerberos,NS-SQL01,Logoff,,IT,United States,1000008
+2026-11-16T01:24:11-06:00,4634,svc_deploy,10.24.20.13,NS-DC02,3,Kerberos,NS-APP01,Logoff,,IT,United States,1000009
+2026-11-16T01:24:19-06:00,4634,svc_sql,10.24.20.12,NS-DC01,3,Kerberos,NS-SQL01,Logoff,,IT,United States,1000010
+2026-11-16T07:48:17-06:00,4624,gray.taylor,10.24.10.107,NS-WS07,2,Kerberos,NS-WS07,Success,,IT,United States,1000011
+2026-11-16T07:53:20-06:00,4624,marley.james,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Success,,HR,United States,1000012
+2026-11-16T07:57:42-06:00,4624,ben.young,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Success,,Sales,United States,1000013
+2026-11-16T08:00:51-06:00,4624,oakley.ward,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Success,,Finance,United States,1000014
+2026-11-16T08:01:48-06:00,4624,devon.brown,10.24.10.113,NS-WS13,2,Kerberos,NS-WS13,Success,,Sales,United States,1000015
+2026-11-16T08:06:03-06:00,4624,hayden.flores,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Success,,HR,United States,1000016
+2026-11-16T08:07:56-06:00,4624,skyler.owens,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Success,,Engineering,United States,1000017
+2026-11-16T08:10:55-06:00,4624,felix.diaz,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Success,,Sales,United States,1000018
+2026-11-16T08:19:19-06:00,4624,morgan.hayes,10.24.10.113,NS-WS13,2,Kerberos,NS-WS13,Success,,Finance,United States,1000019
+2026-11-16T08:21:10-06:00,4624,avery.adams,10.24.10.106,NS-WS06,2,Kerberos,NS-WS06,Success,,HR,United States,1000020
+2026-11-16T08:23:19-06:00,4624,iris.garcia,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Success,,Sales,United States,1000021
+2026-11-16T08:27:39-06:00,4624,aria.walker,10.24.10.110,NS-WS10,2,Kerberos,NS-WS10,Success,,Engineering,United States,1000022
+2026-11-16T08:29:42-06:00,4624,frankie.reed,10.24.10.106,NS-WS06,2,Kerberos,NS-WS06,Success,,IT,United States,1000023
+2026-11-16T08:32:38-06:00,4624,teagan.perry,10.24.10.106,NS-WS06,2,Kerberos,NS-WS06,Success,,Engineering,United States,1000024
+2026-11-16T08:35:23-06:00,4624,oliver.lee,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Success,,Engineering,United States,1000025
+2026-11-16T08:42:15-06:00,4624,kendall.hill,198.51.100.47,NS-WS13,10,Kerberos,NS-WS13,Success,,HR,United States,1000026
+2026-11-16T08:43:25-06:00,4624,noel.cruz,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Success,,Finance,United States,1000027
+2026-11-16T08:50:38-06:00,4624,lane.ivanov,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Success,,HR,United States,1000028
+2026-11-16T08:51:20-06:00,4624,nolan.kelly,10.24.10.101,NS-WS01,2,Kerberos,NS-WS01,Success,,Engineering,United States,1000029
+2026-11-16T08:52:35-06:00,4624,blair.chen,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Success,,IT,United States,1000030
+2026-11-16T08:57:37-06:00,4624,hugo.ford,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Success,,Sales,United States,1000031
+2026-11-16T08:58:55-06:00,4624,cameron.baker,10.24.10.107,NS-WS07,2,Kerberos,NS-WS07,Success,,HR,United States,1000032
+2026-11-16T09:03:43-06:00,4624,zion.turner,10.24.10.109,NS-WS09,2,Kerberos,NS-WS09,Success,,Engineering,United States,1000033
+2026-11-16T09:07:46-06:00,4624,indigo.shah,10.24.10.109,NS-WS09,2,Kerberos,NS-WS09,Success,,IT,United States,1000034
+2026-11-16T09:11:34-06:00,4624,dakota.clark,10.24.10.108,NS-WS08,2,Kerberos,NS-WS08,Success,,HR,United States,1000035
+2026-11-16T09:14:02-06:00,4624,finley.evans,10.24.10.110,NS-WS10,2,Kerberos,NS-WS10,Success,,HR,United States,1000036
+2026-11-16T09:15:12-06:00,4624,harper.kim,10.24.10.108,NS-WS08,2,Kerberos,NS-WS08,Success,,IT,United States,1000037
+2026-11-16T09:20:48-06:00,4624,val.roberts,198.51.100.56,NS-WS07,10,Kerberos,NS-WS07,Success,,Engineering,United States,1000038
+2026-11-16T09:24:47-06:00,4624,casey.patel,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Success,,IT,United States,1000039
+2026-11-16T09:25:33-06:00,4624,jordan.brooks,198.51.100.29,NS-WS10,10,Kerberos,NS-WS10,Success,,IT,United States,1000040
+2026-11-16T09:29:15-06:00,4624,jamie.green,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Success,,HR,United States,1000041
+2026-11-16T09:32:53-06:00,4624,logan.price,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Success,,Finance,United States,1000042
+2026-11-16T09:35:44-06:00,4624,riley.cole,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Success,,Finance,United States,1000043
+2026-11-16T09:36:02-06:00,4624,paige.miller,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Success,,Engineering,United States,1000044
+2026-11-16T09:36:08-06:00,4624,elena.carter,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Success,,Sales,United States,1000045
+2026-11-16T09:45:19-06:00,4624,leah.jackson,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Success,,Sales,United States,1000046
+2026-11-16T09:46:02-06:00,4624,sage.foster,198.51.100.38,NS-WS04,10,Kerberos,NS-WS04,Success,,Finance,United States,1000047
+2026-11-16T09:55:55-06:00,4624,grace.edwards,198.51.100.65,NS-WS01,10,Kerberos,NS-WS01,Success,,Sales,United States,1000048
+2026-11-16T09:57:41-06:00,4624,alex.morgan,198.51.100.20,NS-WS01,10,Kerberos,NS-WS01,Success,,IT,United States,1000049
+2026-11-16T09:59:41-06:00,4624,chloe.allen,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Success,,Sales,United States,1000050
+2026-11-16T10:01:12-06:00,4624,winter.scott,10.24.10.108,NS-WS08,2,Kerberos,NS-WS08,Success,,Engineering,United States,1000051
+2026-11-16T10:04:06-06:00,4624,drew.parker,10.24.10.104,NS-WS04,2,Kerberos,NS-WS04,Success,,IT,United States,1000052
+2026-11-16T10:07:43-06:00,4624,ellis.rivera,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Success,,IT,United States,1000053
+2026-11-16T10:07:44-06:00,4624,taylor.wong,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Success,,Finance,United States,1000054
+2026-11-16T10:11:12-06:00,4624,quinn.bell,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Success,,Finance,United States,1000055
+2026-11-16T10:13:43-06:00,4624,emerson.davis,10.24.10.109,NS-WS09,2,Kerberos,NS-WS09,Success,,HR,United States,1000056
+2026-11-16T10:25:39-06:00,4624,jude.hall,10.24.10.104,NS-WS04,2,Kerberos,NS-WS04,Success,,Sales,United States,1000057
+2026-11-16T10:32:44-06:00,4624,reese.nash,10.24.10.104,NS-WS04,2,Kerberos,NS-WS04,Success,,Engineering,United States,1000058
+2026-11-16T10:56:26-06:00,4624,kai.nguyen,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Success,,Finance,United States,1000059
+2026-11-16T10:59:32-06:00,4624,peyton.ross,10.24.10.101,NS-WS01,2,Kerberos,NS-WS01,Success,,Finance,United States,1000060
+2026-11-16T11:00:43-06:00,4648,alex.morgan,10.24.10.101,NS-WS01,3,NTLM,NS-WS01,Explicit credentials attempted,,IT,United States,1000061
+2026-11-16T11:00:45-06:00,4624,alex.morgan,10.24.10.101,NS-FS01,3,NTLM,NS-WS01,Success,,IT,United States,1000062
+2026-11-16T11:00:46-06:00,4672,alex.morgan,10.24.10.101,NS-FS01,3,NTLM,NS-WS01,Special privileges assigned,,IT,United States,1000063
+2026-11-16T11:06:09-06:00,4648,blair.chen,10.24.10.102,NS-WS02,3,NTLM,NS-WS02,Explicit credentials attempted,,IT,United States,1000064
+2026-11-16T11:06:11-06:00,4624,blair.chen,10.24.10.102,NS-FS01,3,NTLM,NS-WS02,Success,,IT,United States,1000065
+2026-11-16T11:06:12-06:00,4672,blair.chen,10.24.10.102,NS-FS01,3,NTLM,NS-WS02,Special privileges assigned,,IT,United States,1000066
+2026-11-16T11:12:39-06:00,4648,casey.patel,10.24.10.103,NS-WS03,3,NTLM,NS-WS03,Explicit credentials attempted,,IT,United States,1000067
+2026-11-16T11:12:41-06:00,4624,casey.patel,10.24.10.103,NS-FS01,3,NTLM,NS-WS03,Success,,IT,United States,1000068
+2026-11-16T11:12:42-06:00,4672,casey.patel,10.24.10.103,NS-FS01,3,NTLM,NS-WS03,Special privileges assigned,,IT,United States,1000069
+2026-11-16T11:12:43-06:00,4634,alex.morgan,10.24.10.101,NS-FS01,3,NTLM,NS-WS01,Logoff,,IT,United States,1000070
+2026-11-16T11:18:09-06:00,4634,blair.chen,10.24.10.102,NS-FS01,3,NTLM,NS-WS02,Logoff,,IT,United States,1000071
+2026-11-16T11:18:29-06:00,4648,drew.parker,10.24.10.104,NS-WS04,3,NTLM,NS-WS04,Explicit credentials attempted,,IT,United States,1000072
+2026-11-16T11:18:31-06:00,4624,drew.parker,10.24.10.104,NS-FS01,3,NTLM,NS-WS04,Success,,IT,United States,1000073
+2026-11-16T11:18:32-06:00,4672,drew.parker,10.24.10.104,NS-FS01,3,NTLM,NS-WS04,Special privileges assigned,,IT,United States,1000074
+2026-11-16T11:24:39-06:00,4634,casey.patel,10.24.10.103,NS-FS01,3,NTLM,NS-WS03,Logoff,,IT,United States,1000075
+2026-11-16T11:24:58-06:00,4648,ellis.rivera,10.24.10.105,NS-WS05,3,NTLM,NS-WS05,Explicit credentials attempted,,IT,United States,1000076
+2026-11-16T11:25:00-06:00,4624,ellis.rivera,10.24.10.105,NS-FS01,3,NTLM,NS-WS05,Success,,IT,United States,1000077
+2026-11-16T11:25:01-06:00,4672,ellis.rivera,10.24.10.105,NS-FS01,3,NTLM,NS-WS05,Special privileges assigned,,IT,United States,1000078
+2026-11-16T11:30:29-06:00,4634,drew.parker,10.24.10.104,NS-FS01,3,NTLM,NS-WS04,Logoff,,IT,United States,1000079
+2026-11-16T11:36:58-06:00,4634,ellis.rivera,10.24.10.105,NS-FS01,3,NTLM,NS-WS05,Logoff,,IT,United States,1000080
+2026-11-16T13:02:19-06:00,4624,svc_report,10.24.20.12,NS-DC02,3,Kerberos,NS-SQL01,Success,,IT,United States,1000081
+2026-11-16T13:04:51-06:00,4624,svc_sql,10.24.20.12,NS-DC01,3,Kerberos,NS-SQL01,Success,,IT,United States,1000082
+2026-11-16T13:05:40-06:00,4624,svc_deploy,10.24.20.13,NS-DC02,3,Kerberos,NS-APP01,Success,,IT,United States,1000083
+2026-11-16T13:10:23-06:00,4624,svc_backup,10.24.20.11,NS-DC01,3,Kerberos,NS-FS01,Success,,IT,United States,1000084
+2026-11-16T13:10:36-06:00,4624,svc_monitor,10.24.20.13,NS-DC01,3,Kerberos,NS-APP01,Success,,IT,United States,1000085
+2026-11-16T13:12:19-06:00,4634,svc_report,10.24.20.12,NS-DC02,3,Kerberos,NS-SQL01,Logoff,,IT,United States,1000086
+2026-11-16T13:14:51-06:00,4634,svc_sql,10.24.20.12,NS-DC01,3,Kerberos,NS-SQL01,Logoff,,IT,United States,1000087
+2026-11-16T13:15:40-06:00,4634,svc_deploy,10.24.20.13,NS-DC02,3,Kerberos,NS-APP01,Logoff,,IT,United States,1000088
+2026-11-16T13:20:23-06:00,4634,svc_backup,10.24.20.11,NS-DC01,3,Kerberos,NS-FS01,Logoff,,IT,United States,1000089
+2026-11-16T13:20:36-06:00,4634,svc_monitor,10.24.20.13,NS-DC01,3,Kerberos,NS-APP01,Logoff,,IT,United States,1000090
+2026-11-16T14:00:09-06:00,4625,kai.nguyen,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,United States,1000091
+2026-11-16T14:00:34-06:00,4624,kai.nguyen,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Success,,Finance,United States,1000092
+2026-11-16T14:10:39-06:00,4625,peyton.ross,10.24.10.101,NS-WS01,2,Kerberos,NS-WS01,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,United States,1000093
+2026-11-16T14:11:04-06:00,4624,peyton.ross,10.24.10.101,NS-WS01,2,Kerberos,NS-WS01,Success,,Finance,United States,1000094
+2026-11-16T14:18:17-06:00,4634,gray.taylor,10.24.10.107,NS-WS07,2,Kerberos,NS-WS07,Logoff,,IT,United States,1000095
+2026-11-16T14:20:39-06:00,4625,avery.adams,10.24.10.106,NS-WS06,2,Kerberos,NS-WS06,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),HR,United States,1000096
+2026-11-16T14:21:04-06:00,4624,avery.adams,10.24.10.106,NS-WS06,2,Kerberos,NS-WS06,Success,,HR,United States,1000097
+2026-11-16T14:21:42-06:00,4634,ben.young,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Logoff,,Sales,United States,1000098
+2026-11-16T14:22:19-06:00,4634,morgan.hayes,10.24.10.113,NS-WS13,2,Kerberos,NS-WS13,Logoff,,Finance,United States,1000099
+2026-11-16T14:30:28-06:00,4625,hayden.flores,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),HR,United States,1000100
+2026-11-16T14:30:53-06:00,4624,hayden.flores,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Success,,HR,United States,1000101
+2026-11-16T14:35:09-06:00,4634,kai.nguyen,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Logoff,,Finance,United States,1000102
+2026-11-16T14:43:19-06:00,4634,iris.garcia,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Logoff,,Sales,United States,1000103
+2026-11-16T14:45:39-06:00,4634,peyton.ross,10.24.10.101,NS-WS01,2,Kerberos,NS-WS01,Logoff,,Finance,United States,1000104
+2026-11-16T14:55:39-06:00,4634,avery.adams,10.24.10.106,NS-WS06,2,Kerberos,NS-WS06,Logoff,,HR,United States,1000105
+2026-11-16T15:05:28-06:00,4634,hayden.flores,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Logoff,,HR,United States,1000106
+2026-11-16T15:07:03-06:00,4634,hayden.flores,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Logoff,,HR,United States,1000107
+2026-11-16T15:15:20-06:00,4634,marley.james,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Logoff,,HR,United States,1000108
+2026-11-16T15:19:56-06:00,4634,skyler.owens,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Logoff,,Engineering,United States,1000109
+2026-11-16T15:20:43-06:00,4634,zion.turner,10.24.10.109,NS-WS09,2,Kerberos,NS-WS09,Logoff,,Engineering,United States,1000110
+2026-11-16T15:25:47-06:00,4634,casey.patel,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Logoff,,IT,United States,1000111
+2026-11-16T15:26:35-06:00,4634,blair.chen,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Logoff,,IT,United States,1000112
+2026-11-16T15:27:48-06:00,4634,devon.brown,10.24.10.113,NS-WS13,2,Kerberos,NS-WS13,Logoff,,Sales,United States,1000113
+2026-11-16T15:28:37-06:00,4634,hugo.ford,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Logoff,,Sales,United States,1000114
+2026-11-16T15:29:51-06:00,4634,oakley.ward,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Logoff,,Finance,United States,1000115
+2026-11-16T15:31:42-06:00,4634,frankie.reed,10.24.10.106,NS-WS06,2,Kerberos,NS-WS06,Logoff,,IT,United States,1000116
+2026-11-16T15:35:48-06:00,4634,val.roberts,198.51.100.56,NS-WS07,10,Kerberos,NS-WS07,Logoff,,Engineering,United States,1000117
+2026-11-16T15:47:19-06:00,4634,leah.jackson,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Logoff,,Sales,United States,1000118
+2026-11-16T15:57:25-06:00,4634,noel.cruz,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Logoff,,Finance,United States,1000119
+2026-11-16T16:00:15-06:00,4634,jamie.green,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Logoff,,HR,United States,1000120
+2026-11-16T16:02:02-06:00,4634,sage.foster,198.51.100.38,NS-WS04,10,Kerberos,NS-WS04,Logoff,,Finance,United States,1000121
+2026-11-16T16:02:02-06:00,4634,paige.miller,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Logoff,,Engineering,United States,1000122
+2026-11-16T16:03:15-06:00,4634,kendall.hill,198.51.100.47,NS-WS13,10,Kerberos,NS-WS13,Logoff,,HR,United States,1000123
+2026-11-16T16:07:38-06:00,4634,lane.ivanov,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Logoff,,HR,United States,1000124
+2026-11-16T16:11:55-06:00,4634,grace.edwards,198.51.100.65,NS-WS01,10,Kerberos,NS-WS01,Logoff,,Sales,United States,1000125
+2026-11-16T16:12:08-06:00,4634,elena.carter,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Logoff,,Sales,United States,1000126
+2026-11-16T16:12:23-06:00,4634,oliver.lee,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Logoff,,Engineering,United States,1000127
+2026-11-16T16:18:02-06:00,4634,finley.evans,10.24.10.110,NS-WS10,2,Kerberos,NS-WS10,Logoff,,HR,United States,1000128
+2026-11-16T16:25:43-06:00,4634,ellis.rivera,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Logoff,,IT,United States,1000129
+2026-11-16T16:29:20-06:00,4634,nolan.kelly,10.24.10.101,NS-WS01,2,Kerberos,NS-WS01,Logoff,,Engineering,United States,1000130
+2026-11-16T16:30:34-06:00,4634,dakota.clark,10.24.10.108,NS-WS08,2,Kerberos,NS-WS08,Logoff,,HR,United States,1000131
+2026-11-16T16:36:41-06:00,4634,chloe.allen,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Logoff,,Sales,United States,1000132
+2026-11-16T16:38:55-06:00,4634,felix.diaz,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Logoff,,Sales,United States,1000133
+2026-11-16T16:39:10-06:00,4634,avery.adams,10.24.10.106,NS-WS06,2,Kerberos,NS-WS06,Logoff,,HR,United States,1000134
+2026-11-16T16:52:44-06:00,4634,reese.nash,10.24.10.104,NS-WS04,2,Kerberos,NS-WS04,Logoff,,Engineering,United States,1000135
+2026-11-16T16:59:39-06:00,4634,aria.walker,10.24.10.110,NS-WS10,2,Kerberos,NS-WS10,Logoff,,Engineering,United States,1000136
+2026-11-16T17:02:33-06:00,4634,jordan.brooks,198.51.100.29,NS-WS10,10,Kerberos,NS-WS10,Logoff,,IT,United States,1000137
+2026-11-16T17:07:41-06:00,4634,alex.morgan,198.51.100.20,NS-WS01,10,Kerberos,NS-WS01,Logoff,,IT,United States,1000138
+2026-11-16T17:08:38-06:00,4634,teagan.perry,10.24.10.106,NS-WS06,2,Kerberos,NS-WS06,Logoff,,Engineering,United States,1000139
+2026-11-16T17:19:55-06:00,4634,cameron.baker,10.24.10.107,NS-WS07,2,Kerberos,NS-WS07,Logoff,,HR,United States,1000140
+2026-11-16T17:21:06-06:00,4634,drew.parker,10.24.10.104,NS-WS04,2,Kerberos,NS-WS04,Logoff,,IT,United States,1000141
+2026-11-16T17:27:46-06:00,4634,indigo.shah,10.24.10.109,NS-WS09,2,Kerberos,NS-WS09,Logoff,,IT,United States,1000142
+2026-11-16T17:40:44-06:00,4634,taylor.wong,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Logoff,,Finance,United States,1000143
+2026-11-16T17:45:12-06:00,4634,harper.kim,10.24.10.108,NS-WS08,2,Kerberos,NS-WS08,Logoff,,IT,United States,1000144
+2026-11-16T17:45:44-06:00,4634,riley.cole,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Logoff,,Finance,United States,1000145
+2026-11-16T17:59:26-06:00,4634,kai.nguyen,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Logoff,,Finance,United States,1000146
+2026-11-16T18:05:53-06:00,4634,logan.price,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Logoff,,Finance,United States,1000147
+2026-11-16T18:14:43-06:00,4634,emerson.davis,10.24.10.109,NS-WS09,2,Kerberos,NS-WS09,Logoff,,HR,United States,1000148
+2026-11-16T18:19:12-06:00,4634,winter.scott,10.24.10.108,NS-WS08,2,Kerberos,NS-WS08,Logoff,,Engineering,United States,1000149
+2026-11-16T18:41:12-06:00,4634,quinn.bell,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Logoff,,Finance,United States,1000150
+2026-11-16T19:03:39-06:00,4634,jude.hall,10.24.10.104,NS-WS04,2,Kerberos,NS-WS04,Logoff,,Sales,United States,1000151
+2026-11-16T19:18:32-06:00,4634,peyton.ross,10.24.10.101,NS-WS01,2,Kerberos,NS-WS01,Logoff,,Finance,United States,1000152
+2026-11-16T21:10:00-06:00,4624,ben.young,192.0.2.30,NS-WS11,10,Kerberos,NS-WS11,Success,,Sales,Canada,1000153
+2026-11-16T22:00:00-06:00,4634,ben.young,192.0.2.30,NS-WS11,10,Kerberos,NS-WS11,Logoff,,Sales,Canada,1000154
+2026-11-17T01:00:08-06:00,4624,svc_deploy,10.24.20.13,NS-DC02,3,Kerberos,NS-APP01,Success,,IT,United States,1000155
+2026-11-17T01:00:31-06:00,4624,svc_sql,10.24.20.12,NS-DC01,3,Kerberos,NS-SQL01,Success,,IT,United States,1000156
+2026-11-17T01:03:52-06:00,4624,svc_report,10.24.20.12,NS-DC02,3,Kerberos,NS-SQL01,Success,,IT,United States,1000157
+2026-11-17T01:10:08-06:00,4634,svc_deploy,10.24.20.13,NS-DC02,3,Kerberos,NS-APP01,Logoff,,IT,United States,1000158
+2026-11-17T01:10:31-06:00,4634,svc_sql,10.24.20.12,NS-DC01,3,Kerberos,NS-SQL01,Logoff,,IT,United States,1000159
+2026-11-17T01:11:15-06:00,4624,svc_monitor,10.24.20.13,NS-DC01,3,Kerberos,NS-APP01,Success,,IT,United States,1000160
+2026-11-17T01:13:52-06:00,4634,svc_report,10.24.20.12,NS-DC02,3,Kerberos,NS-SQL01,Logoff,,IT,United States,1000161
+2026-11-17T01:14:17-06:00,4624,svc_backup,10.24.20.11,NS-DC01,3,Kerberos,NS-FS01,Success,,IT,United States,1000162
+2026-11-17T01:21:15-06:00,4634,svc_monitor,10.24.20.13,NS-DC01,3,Kerberos,NS-APP01,Logoff,,IT,United States,1000163
+2026-11-17T01:24:17-06:00,4634,svc_backup,10.24.20.11,NS-DC01,3,Kerberos,NS-FS01,Logoff,,IT,United States,1000164
+2026-11-17T07:02:13-06:00,4624,skyler.owens,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Success,,Engineering,United States,1000165
+2026-11-17T07:02:19-06:00,4624,paige.miller,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Success,,Engineering,United States,1000166
+2026-11-17T07:03:38-06:00,4624,indigo.shah,10.24.10.109,NS-WS09,2,Kerberos,NS-WS09,Success,,IT,United States,1000167
+2026-11-17T07:06:29-06:00,4624,taylor.wong,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Success,,Finance,United States,1000168
+2026-11-17T07:17:01-06:00,4624,dakota.clark,10.24.10.108,NS-WS08,2,Kerberos,NS-WS08,Success,,HR,United States,1000169
+2026-11-17T07:31:31-06:00,4624,gray.taylor,10.24.10.107,NS-WS07,2,Kerberos,NS-WS07,Success,,IT,United States,1000170
+2026-11-17T07:36:10-06:00,4624,zion.turner,10.24.10.109,NS-WS09,2,Kerberos,NS-WS09,Success,,Engineering,United States,1000171
+2026-11-17T07:36:18-06:00,4624,iris.garcia,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Success,,Sales,United States,1000172
+2026-11-17T07:48:50-06:00,4624,morgan.hayes,10.24.10.113,NS-WS13,2,Kerberos,NS-WS13,Success,,Finance,United States,1000173
+2026-11-17T07:53:24-06:00,4624,jamie.green,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Success,,HR,United States,1000174
+2026-11-17T07:57:28-06:00,4624,elena.carter,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Success,,Sales,United States,1000175
+2026-11-17T08:02:49-06:00,4624,jordan.brooks,198.51.100.29,NS-WS10,10,Kerberos,NS-WS10,Success,,IT,United States,1000176
+2026-11-17T08:07:45-06:00,4624,frankie.reed,10.24.10.106,NS-WS06,2,Kerberos,NS-WS06,Success,,IT,United States,1000177
+2026-11-17T08:09:49-06:00,4624,casey.patel,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Success,,IT,United States,1000178
+2026-11-17T08:10:36-06:00,4624,peyton.ross,10.24.10.101,NS-WS01,2,Kerberos,NS-WS01,Success,,Finance,United States,1000179
+2026-11-17T08:12:34-06:00,4624,grace.edwards,198.51.100.65,NS-WS01,10,Kerberos,NS-WS01,Success,,Sales,United States,1000180
+2026-11-17T08:15:24-06:00,4624,alex.morgan,198.51.100.20,NS-WS01,10,Kerberos,NS-WS01,Success,,IT,United States,1000181
+2026-11-17T08:25:26-06:00,4624,logan.price,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Success,,Finance,United States,1000182
+2026-11-17T08:31:17-06:00,4624,leah.jackson,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Success,,Sales,United States,1000183
+2026-11-17T08:34:01-06:00,4624,aria.walker,10.24.10.110,NS-WS10,2,Kerberos,NS-WS10,Success,,Engineering,United States,1000184
+2026-11-17T08:43:35-06:00,4624,noel.cruz,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Success,,Finance,United States,1000185
+2026-11-17T08:43:37-06:00,4624,ben.young,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Success,,Sales,United States,1000186
+2026-11-17T08:51:17-06:00,4624,emerson.davis,10.24.10.109,NS-WS09,2,Kerberos,NS-WS09,Success,,HR,United States,1000187
+2026-11-17T08:53:08-06:00,4624,hayden.flores,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Success,,HR,United States,1000188
+2026-11-17T08:56:05-06:00,4624,devon.brown,10.24.10.113,NS-WS13,2,Kerberos,NS-WS13,Success,,Sales,United States,1000189
+2026-11-17T08:57:41-06:00,4624,oakley.ward,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Success,,Finance,United States,1000190
+2026-11-17T09:01:24-06:00,4624,teagan.perry,10.24.10.106,NS-WS06,2,Kerberos,NS-WS06,Success,,Engineering,United States,1000191
+2026-11-17T09:02:25-06:00,4624,val.roberts,198.51.100.56,NS-WS07,10,Kerberos,NS-WS07,Success,,Engineering,United States,1000192
+2026-11-17T09:05:50-06:00,4624,sage.foster,198.51.100.38,NS-WS04,10,Kerberos,NS-WS04,Success,,Finance,United States,1000193
+2026-11-17T09:12:48-06:00,4624,lane.ivanov,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Success,,HR,United States,1000194
+2026-11-17T09:13:28-06:00,4624,ellis.rivera,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Success,,IT,United States,1000195
+2026-11-17T09:15:53-06:00,4624,hugo.ford,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Success,,Sales,United States,1000196
+2026-11-17T09:16:12-06:00,4624,winter.scott,10.24.10.108,NS-WS08,2,Kerberos,NS-WS08,Success,,Engineering,United States,1000197
+2026-11-17T09:19:41-06:00,4624,chloe.allen,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Success,,Sales,United States,1000198
+2026-11-17T09:21:53-06:00,4624,harper.kim,10.24.10.108,NS-WS08,2,Kerberos,NS-WS08,Success,,IT,United States,1000199
+2026-11-17T09:36:58-06:00,4624,quinn.bell,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Success,,Finance,United States,1000200
+2026-11-17T09:37:24-06:00,4624,cameron.baker,10.24.10.107,NS-WS07,2,Kerberos,NS-WS07,Success,,HR,United States,1000201
+2026-11-17T09:40:04-06:00,4624,kendall.hill,198.51.100.47,NS-WS13,10,Kerberos,NS-WS13,Success,,HR,United States,1000202
+2026-11-17T09:40:10-06:00,4624,marley.james,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Success,,HR,United States,1000203
+2026-11-17T09:48:29-06:00,4624,reese.nash,10.24.10.104,NS-WS04,2,Kerberos,NS-WS04,Success,,Engineering,United States,1000204
+2026-11-17T09:55:21-06:00,4624,jude.hall,10.24.10.104,NS-WS04,2,Kerberos,NS-WS04,Success,,Sales,United States,1000205
+2026-11-17T09:58:08-06:00,4624,nolan.kelly,10.24.10.101,NS-WS01,2,Kerberos,NS-WS01,Success,,Engineering,United States,1000206
+2026-11-17T10:03:03-06:00,4624,avery.adams,10.24.10.106,NS-WS06,2,Kerberos,NS-WS06,Success,,HR,United States,1000207
+2026-11-17T10:05:25-06:00,4624,drew.parker,10.24.10.104,NS-WS04,2,Kerberos,NS-WS04,Success,,IT,United States,1000208
+2026-11-17T10:11:55-06:00,4624,blair.chen,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Success,,IT,United States,1000209
+2026-11-17T10:18:20-06:00,4624,finley.evans,10.24.10.110,NS-WS10,2,Kerberos,NS-WS10,Success,,HR,United States,1000210
+2026-11-17T10:18:47-06:00,4624,riley.cole,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Success,,Finance,United States,1000211
+2026-11-17T10:22:51-06:00,4624,oliver.lee,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Success,,Engineering,United States,1000212
+2026-11-17T10:27:08-06:00,4624,kai.nguyen,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Success,,Finance,United States,1000213
+2026-11-17T10:59:23-06:00,4624,felix.diaz,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Success,,Sales,United States,1000214
+2026-11-17T11:00:15-06:00,4648,alex.morgan,10.24.10.101,NS-WS01,3,NTLM,NS-WS01,Explicit credentials attempted,,IT,United States,1000215
+2026-11-17T11:00:17-06:00,4624,alex.morgan,10.24.10.101,NS-FS01,3,NTLM,NS-WS01,Success,,IT,United States,1000216
+2026-11-17T11:00:18-06:00,4672,alex.morgan,10.24.10.101,NS-FS01,3,NTLM,NS-WS01,Special privileges assigned,,IT,United States,1000217
+2026-11-17T11:06:12-06:00,4648,blair.chen,10.24.10.102,NS-WS02,3,NTLM,NS-WS02,Explicit credentials attempted,,IT,United States,1000218
+2026-11-17T11:06:14-06:00,4624,blair.chen,10.24.10.102,NS-FS01,3,NTLM,NS-WS02,Success,,IT,United States,1000219
+2026-11-17T11:06:15-06:00,4672,blair.chen,10.24.10.102,NS-FS01,3,NTLM,NS-WS02,Special privileges assigned,,IT,United States,1000220
+2026-11-17T11:12:04-06:00,4648,casey.patel,10.24.10.103,NS-WS03,3,NTLM,NS-WS03,Explicit credentials attempted,,IT,United States,1000221
+2026-11-17T11:12:06-06:00,4624,casey.patel,10.24.10.103,NS-FS01,3,NTLM,NS-WS03,Success,,IT,United States,1000222
+2026-11-17T11:12:07-06:00,4672,casey.patel,10.24.10.103,NS-FS01,3,NTLM,NS-WS03,Special privileges assigned,,IT,United States,1000223
+2026-11-17T11:12:15-06:00,4634,alex.morgan,10.24.10.101,NS-FS01,3,NTLM,NS-WS01,Logoff,,IT,United States,1000224
+2026-11-17T11:18:12-06:00,4634,blair.chen,10.24.10.102,NS-FS01,3,NTLM,NS-WS02,Logoff,,IT,United States,1000225
+2026-11-17T11:18:13-06:00,4648,drew.parker,10.24.10.104,NS-WS04,3,NTLM,NS-WS04,Explicit credentials attempted,,IT,United States,1000226
+2026-11-17T11:18:15-06:00,4624,drew.parker,10.24.10.104,NS-FS01,3,NTLM,NS-WS04,Success,,IT,United States,1000227
+2026-11-17T11:18:16-06:00,4672,drew.parker,10.24.10.104,NS-FS01,3,NTLM,NS-WS04,Special privileges assigned,,IT,United States,1000228
+2026-11-17T11:24:04-06:00,4634,casey.patel,10.24.10.103,NS-FS01,3,NTLM,NS-WS03,Logoff,,IT,United States,1000229
+2026-11-17T11:24:22-06:00,4648,ellis.rivera,10.24.10.105,NS-WS05,3,NTLM,NS-WS05,Explicit credentials attempted,,IT,United States,1000230
+2026-11-17T11:24:24-06:00,4624,ellis.rivera,10.24.10.105,NS-FS01,3,NTLM,NS-WS05,Success,,IT,United States,1000231
+2026-11-17T11:24:25-06:00,4672,ellis.rivera,10.24.10.105,NS-FS01,3,NTLM,NS-WS05,Special privileges assigned,,IT,United States,1000232
+2026-11-17T11:30:13-06:00,4634,drew.parker,10.24.10.104,NS-FS01,3,NTLM,NS-WS04,Logoff,,IT,United States,1000233
+2026-11-17T11:36:22-06:00,4634,ellis.rivera,10.24.10.105,NS-FS01,3,NTLM,NS-WS05,Logoff,,IT,United States,1000234
+2026-11-17T13:00:23-06:00,4624,svc_monitor,10.24.20.13,NS-DC01,3,Kerberos,NS-APP01,Success,,IT,United States,1000235
+2026-11-17T13:00:33-06:00,4624,svc_report,10.24.20.12,NS-DC02,3,Kerberos,NS-SQL01,Success,,IT,United States,1000236
+2026-11-17T13:08:02-06:00,4624,svc_sql,10.24.20.12,NS-DC01,3,Kerberos,NS-SQL01,Success,,IT,United States,1000237
+2026-11-17T13:09:07-06:00,4624,svc_deploy,10.24.20.13,NS-DC02,3,Kerberos,NS-APP01,Success,,IT,United States,1000238
+2026-11-17T13:10:23-06:00,4634,svc_monitor,10.24.20.13,NS-DC01,3,Kerberos,NS-APP01,Logoff,,IT,United States,1000239
+2026-11-17T13:10:33-06:00,4634,svc_report,10.24.20.12,NS-DC02,3,Kerberos,NS-SQL01,Logoff,,IT,United States,1000240
+2026-11-17T13:13:29-06:00,4624,svc_backup,10.24.20.11,NS-DC01,3,Kerberos,NS-FS01,Success,,IT,United States,1000241
+2026-11-17T13:18:02-06:00,4634,svc_sql,10.24.20.12,NS-DC01,3,Kerberos,NS-SQL01,Logoff,,IT,United States,1000242
+2026-11-17T13:19:07-06:00,4634,svc_deploy,10.24.20.13,NS-DC02,3,Kerberos,NS-APP01,Logoff,,IT,United States,1000243
+2026-11-17T13:23:29-06:00,4634,svc_backup,10.24.20.11,NS-DC01,3,Kerberos,NS-FS01,Logoff,,IT,United States,1000244
+2026-11-17T13:31:13-06:00,4634,skyler.owens,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Logoff,,Engineering,United States,1000245
+2026-11-17T13:31:38-06:00,4634,indigo.shah,10.24.10.109,NS-WS09,2,Kerberos,NS-WS09,Logoff,,IT,United States,1000246
+2026-11-17T13:48:18-06:00,4634,iris.garcia,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Logoff,,Sales,United States,1000247
+2026-11-17T13:58:10-06:00,4634,zion.turner,10.24.10.109,NS-WS09,2,Kerberos,NS-WS09,Logoff,,Engineering,United States,1000248
+2026-11-17T14:02:13-06:00,4625,logan.price,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,United States,1000249
+2026-11-17T14:02:38-06:00,4624,logan.price,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Success,,Finance,United States,1000250
+2026-11-17T14:12:27-06:00,4625,quinn.bell,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,United States,1000251
+2026-11-17T14:12:52-06:00,4624,quinn.bell,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Success,,Finance,United States,1000252
+2026-11-17T14:22:42-06:00,4625,cameron.baker,10.24.10.107,NS-WS07,2,Kerberos,NS-WS07,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),HR,United States,1000253
+2026-11-17T14:23:07-06:00,4624,cameron.baker,10.24.10.107,NS-WS07,2,Kerberos,NS-WS07,Success,,HR,United States,1000254
+2026-11-17T14:24:29-06:00,4634,taylor.wong,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Logoff,,Finance,United States,1000255
+2026-11-17T14:29:24-06:00,4634,jamie.green,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Logoff,,HR,United States,1000256
+2026-11-17T14:32:00-06:00,4625,jamie.green,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),HR,United States,1000257
+2026-11-17T14:32:25-06:00,4624,jamie.green,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Success,,HR,United States,1000258
+2026-11-17T14:37:13-06:00,4634,logan.price,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Logoff,,Finance,United States,1000259
+2026-11-17T14:37:34-06:00,4634,grace.edwards,198.51.100.65,NS-WS01,10,Kerberos,NS-WS01,Logoff,,Sales,United States,1000260
+2026-11-17T14:47:27-06:00,4634,quinn.bell,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Logoff,,Finance,United States,1000261
+2026-11-17T14:49:26-06:00,4634,logan.price,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Logoff,,Finance,United States,1000262
+2026-11-17T14:55:17-06:00,4634,leah.jackson,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Logoff,,Sales,United States,1000263
+2026-11-17T14:57:42-06:00,4634,cameron.baker,10.24.10.107,NS-WS07,2,Kerberos,NS-WS07,Logoff,,HR,United States,1000264
+2026-11-17T15:07:00-06:00,4634,jamie.green,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Logoff,,HR,United States,1000265
+2026-11-17T15:07:35-06:00,4634,noel.cruz,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Logoff,,Finance,United States,1000266
+2026-11-17T15:07:50-06:00,4634,sage.foster,198.51.100.38,NS-WS04,10,Kerberos,NS-WS04,Logoff,,Finance,United States,1000267
+2026-11-17T15:09:01-06:00,4634,aria.walker,10.24.10.110,NS-WS10,2,Kerberos,NS-WS10,Logoff,,Engineering,United States,1000268
+2026-11-17T15:09:24-06:00,4634,teagan.perry,10.24.10.106,NS-WS06,2,Kerberos,NS-WS06,Logoff,,Engineering,United States,1000269
+2026-11-17T15:19:41-06:00,4634,chloe.allen,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Logoff,,Sales,United States,1000270
+2026-11-17T15:33:19-06:00,4634,paige.miller,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Logoff,,Engineering,United States,1000271
+2026-11-17T15:39:31-06:00,4634,gray.taylor,10.24.10.107,NS-WS07,2,Kerberos,NS-WS07,Logoff,,IT,United States,1000272
+2026-11-17T15:40:24-06:00,4634,cameron.baker,10.24.10.107,NS-WS07,2,Kerberos,NS-WS07,Logoff,,HR,United States,1000273
+2026-11-17T15:44:01-06:00,4634,dakota.clark,10.24.10.108,NS-WS08,2,Kerberos,NS-WS08,Logoff,,HR,United States,1000274
+2026-11-17T15:44:53-06:00,4634,hugo.ford,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Logoff,,Sales,United States,1000275
+2026-11-17T15:53:50-06:00,4634,morgan.hayes,10.24.10.113,NS-WS13,2,Kerberos,NS-WS13,Logoff,,Finance,United States,1000276
+2026-11-17T15:59:10-06:00,4634,marley.james,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Logoff,,HR,United States,1000277
+2026-11-17T16:07:37-06:00,4634,ben.young,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Logoff,,Sales,United States,1000278
+2026-11-17T16:07:45-06:00,4634,frankie.reed,10.24.10.106,NS-WS06,2,Kerberos,NS-WS06,Logoff,,IT,United States,1000279
+2026-11-17T16:17:25-06:00,4634,drew.parker,10.24.10.104,NS-WS04,2,Kerberos,NS-WS04,Logoff,,IT,United States,1000280
+2026-11-17T16:18:55-06:00,4634,blair.chen,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Logoff,,IT,United States,1000281
+2026-11-17T16:20:24-06:00,4634,alex.morgan,198.51.100.20,NS-WS01,10,Kerberos,NS-WS01,Logoff,,IT,United States,1000282
+2026-11-17T16:22:25-06:00,4634,val.roberts,198.51.100.56,NS-WS07,10,Kerberos,NS-WS07,Logoff,,Engineering,United States,1000283
+2026-11-17T16:23:51-06:00,4634,oliver.lee,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Logoff,,Engineering,United States,1000284
+2026-11-17T16:24:29-06:00,4634,reese.nash,10.24.10.104,NS-WS04,2,Kerberos,NS-WS04,Logoff,,Engineering,United States,1000285
+2026-11-17T16:26:49-06:00,4634,jordan.brooks,198.51.100.29,NS-WS10,10,Kerberos,NS-WS10,Logoff,,IT,United States,1000286
+2026-11-17T16:31:36-06:00,4634,peyton.ross,10.24.10.101,NS-WS01,2,Kerberos,NS-WS01,Logoff,,Finance,United States,1000287
+2026-11-17T16:32:41-06:00,4634,oakley.ward,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Logoff,,Finance,United States,1000288
+2026-11-17T16:33:28-06:00,4634,elena.carter,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Logoff,,Sales,United States,1000289
+2026-11-17T16:35:49-06:00,4634,casey.patel,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Logoff,,IT,United States,1000290
+2026-11-17T16:49:12-06:00,4634,winter.scott,10.24.10.108,NS-WS08,2,Kerberos,NS-WS08,Logoff,,Engineering,United States,1000291
+2026-11-17T17:07:58-06:00,4634,quinn.bell,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Logoff,,Finance,United States,1000292
+2026-11-17T17:09:17-06:00,4634,emerson.davis,10.24.10.109,NS-WS09,2,Kerberos,NS-WS09,Logoff,,HR,United States,1000293
+2026-11-17T17:11:05-06:00,4634,devon.brown,10.24.10.113,NS-WS13,2,Kerberos,NS-WS13,Logoff,,Sales,United States,1000294
+2026-11-17T17:13:08-06:00,4634,hayden.flores,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Logoff,,HR,United States,1000295
+2026-11-17T17:35:48-06:00,4634,lane.ivanov,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Logoff,,HR,United States,1000296
+2026-11-17T17:36:28-06:00,4634,ellis.rivera,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Logoff,,IT,United States,1000297
+2026-11-17T17:36:47-06:00,4634,riley.cole,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Logoff,,Finance,United States,1000298
+2026-11-17T17:40:53-06:00,4634,harper.kim,10.24.10.108,NS-WS08,2,Kerberos,NS-WS08,Logoff,,IT,United States,1000299
+2026-11-17T17:43:08-06:00,4634,kai.nguyen,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Logoff,,Finance,United States,1000300
+2026-11-17T17:47:04-06:00,4634,kendall.hill,198.51.100.47,NS-WS13,10,Kerberos,NS-WS13,Logoff,,HR,United States,1000301
+2026-11-17T17:57:21-06:00,4634,jude.hall,10.24.10.104,NS-WS04,2,Kerberos,NS-WS04,Logoff,,Sales,United States,1000302
+2026-11-17T18:07:03-06:00,4634,avery.adams,10.24.10.106,NS-WS06,2,Kerberos,NS-WS06,Logoff,,HR,United States,1000303
+2026-11-17T18:17:08-06:00,4634,nolan.kelly,10.24.10.101,NS-WS01,2,Kerberos,NS-WS01,Logoff,,Engineering,United States,1000304
+2026-11-17T18:48:20-06:00,4634,finley.evans,10.24.10.110,NS-WS10,2,Kerberos,NS-WS10,Logoff,,HR,United States,1000305
+2026-11-17T19:09:23-06:00,4634,felix.diaz,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Logoff,,Sales,United States,1000306
+2026-11-17T21:11:00-06:00,4624,chloe.allen,192.0.2.31,NS-WS12,10,Kerberos,NS-WS12,Success,,Sales,United States,1000307
+2026-11-17T22:01:00-06:00,4634,chloe.allen,192.0.2.31,NS-WS12,10,Kerberos,NS-WS12,Logoff,,Sales,United States,1000308
+2026-11-17T22:14:00-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000309
+2026-11-17T22:14:09-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000310
+2026-11-17T22:14:18-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000311
+2026-11-17T22:14:27-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000312
+2026-11-17T22:14:36-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000313
+2026-11-17T22:14:45-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000314
+2026-11-17T22:14:54-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000315
+2026-11-17T22:15:03-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000316
+2026-11-17T22:15:12-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000317
+2026-11-17T22:15:21-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000318
+2026-11-17T22:15:30-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000319
+2026-11-17T22:15:39-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000320
+2026-11-17T22:15:48-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000321
+2026-11-17T22:15:57-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000322
+2026-11-17T22:16:06-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000323
+2026-11-17T22:16:15-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000324
+2026-11-17T22:16:24-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000325
+2026-11-17T22:16:33-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000326
+2026-11-17T22:16:42-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000327
+2026-11-17T22:16:51-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000328
+2026-11-17T22:17:00-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000329
+2026-11-17T22:17:09-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000330
+2026-11-17T22:17:18-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000331
+2026-11-17T22:17:27-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000332
+2026-11-17T22:17:36-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000333
+2026-11-17T22:17:45-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000334
+2026-11-17T22:17:54-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000335
+2026-11-17T22:18:03-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000336
+2026-11-17T22:18:12-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000337
+2026-11-17T22:18:21-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000338
+2026-11-17T22:18:30-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000339
+2026-11-17T22:18:39-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000340
+2026-11-17T22:18:48-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000341
+2026-11-17T22:18:57-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000342
+2026-11-17T22:19:06-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000343
+2026-11-17T22:19:15-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000344
+2026-11-17T22:19:24-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000345
+2026-11-17T22:19:33-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000346
+2026-11-17T22:19:42-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000347
+2026-11-17T22:19:51-06:00,4625,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Netherlands,1000348
+2026-11-17T22:21:00-06:00,4624,quinn.bell,203.0.113.81,NS-APP01,10,NTLM,-,Success,,Finance,Netherlands,1000349
+2026-11-18T01:01:24-06:00,4624,svc_monitor,10.24.20.13,NS-DC01,3,Kerberos,NS-APP01,Success,,IT,United States,1000350
+2026-11-18T01:03:04-06:00,4624,svc_deploy,10.24.20.13,NS-DC02,3,Kerberos,NS-APP01,Success,,IT,United States,1000351
+2026-11-18T01:04:24-06:00,4624,svc_sql,10.24.20.12,NS-DC01,3,Kerberos,NS-SQL01,Success,,IT,United States,1000352
+2026-11-18T01:10:22-06:00,4624,svc_backup,10.24.20.11,NS-DC01,3,Kerberos,NS-FS01,Success,,IT,United States,1000353
+2026-11-18T01:10:41-06:00,4624,svc_report,10.24.20.12,NS-DC02,3,Kerberos,NS-SQL01,Success,,IT,United States,1000354
+2026-11-18T01:11:24-06:00,4634,svc_monitor,10.24.20.13,NS-DC01,3,Kerberos,NS-APP01,Logoff,,IT,United States,1000355
+2026-11-18T01:13:04-06:00,4634,svc_deploy,10.24.20.13,NS-DC02,3,Kerberos,NS-APP01,Logoff,,IT,United States,1000356
+2026-11-18T01:14:24-06:00,4634,svc_sql,10.24.20.12,NS-DC01,3,Kerberos,NS-SQL01,Logoff,,IT,United States,1000357
+2026-11-18T01:20:22-06:00,4634,svc_backup,10.24.20.11,NS-DC01,3,Kerberos,NS-FS01,Logoff,,IT,United States,1000358
+2026-11-18T01:20:41-06:00,4634,svc_report,10.24.20.12,NS-DC02,3,Kerberos,NS-SQL01,Logoff,,IT,United States,1000359
+2026-11-18T05:32:00-06:00,4625,frankie.reed,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),IT,Singapore,1000360
+2026-11-18T05:32:32-06:00,4625,gray.taylor,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),IT,Singapore,1000361
+2026-11-18T05:33:04-06:00,4625,harper.kim,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),IT,Singapore,1000362
+2026-11-18T05:33:36-06:00,4625,indigo.shah,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),IT,Singapore,1000363
+2026-11-18T05:34:08-06:00,4625,jordan.brooks,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),IT,Singapore,1000364
+2026-11-18T05:34:40-06:00,4625,kai.nguyen,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Singapore,1000365
+2026-11-18T05:35:12-06:00,4625,logan.price,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Singapore,1000366
+2026-11-18T05:35:44-06:00,4625,morgan.hayes,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Singapore,1000367
+2026-11-18T05:36:16-06:00,4625,noel.cruz,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Singapore,1000368
+2026-11-18T05:36:48-06:00,4625,oakley.ward,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Singapore,1000369
+2026-11-18T05:37:20-06:00,4625,peyton.ross,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Singapore,1000370
+2026-11-18T05:37:52-06:00,4625,quinn.bell,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Singapore,1000371
+2026-11-18T05:38:24-06:00,4625,riley.cole,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Singapore,1000372
+2026-11-18T05:38:56-06:00,4625,sage.foster,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Singapore,1000373
+2026-11-18T05:39:28-06:00,4625,taylor.wong,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Singapore,1000374
+2026-11-18T05:40:00-06:00,4625,avery.adams,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),HR,Singapore,1000375
+2026-11-18T05:40:32-06:00,4625,cameron.baker,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),HR,Singapore,1000376
+2026-11-18T05:41:04-06:00,4625,dakota.clark,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),HR,Singapore,1000377
+2026-11-18T05:41:36-06:00,4625,emerson.davis,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),HR,Singapore,1000378
+2026-11-18T05:42:08-06:00,4625,finley.evans,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),HR,Singapore,1000379
+2026-11-18T05:42:40-06:00,4625,hayden.flores,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),HR,Singapore,1000380
+2026-11-18T05:43:12-06:00,4625,jamie.green,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),HR,Singapore,1000381
+2026-11-18T05:43:44-06:00,4625,kendall.hill,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),HR,Singapore,1000382
+2026-11-18T05:44:16-06:00,4625,lane.ivanov,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),HR,Singapore,1000383
+2026-11-18T05:44:48-06:00,4625,marley.james,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),HR,Singapore,1000384
+2026-11-18T05:45:20-06:00,4625,nolan.kelly,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Engineering,Singapore,1000385
+2026-11-18T05:45:52-06:00,4625,oliver.lee,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Engineering,Singapore,1000386
+2026-11-18T05:46:24-06:00,4625,paige.miller,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Engineering,Singapore,1000387
+2026-11-18T05:46:56-06:00,4625,reese.nash,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Engineering,Singapore,1000388
+2026-11-18T05:47:28-06:00,4625,skyler.owens,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Engineering,Singapore,1000389
+2026-11-18T05:48:00-06:00,4625,teagan.perry,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Engineering,Singapore,1000390
+2026-11-18T05:48:32-06:00,4625,val.roberts,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Engineering,Singapore,1000391
+2026-11-18T05:49:04-06:00,4625,winter.scott,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Engineering,Singapore,1000392
+2026-11-18T05:49:36-06:00,4625,zion.turner,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Engineering,Singapore,1000393
+2026-11-18T05:50:08-06:00,4625,aria.walker,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Engineering,Singapore,1000394
+2026-11-18T05:50:40-06:00,4625,ben.young,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Sales,Singapore,1000395
+2026-11-18T05:51:12-06:00,4625,chloe.allen,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Sales,Singapore,1000396
+2026-11-18T05:51:44-06:00,4625,devon.brown,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Sales,Singapore,1000397
+2026-11-18T05:52:16-06:00,4625,elena.carter,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Sales,Singapore,1000398
+2026-11-18T05:52:48-06:00,4625,felix.diaz,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Sales,Singapore,1000399
+2026-11-18T06:12:00-06:00,4625,frankie.reed,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),IT,Singapore,1000400
+2026-11-18T06:12:32-06:00,4625,gray.taylor,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),IT,Singapore,1000401
+2026-11-18T06:13:04-06:00,4625,harper.kim,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),IT,Singapore,1000402
+2026-11-18T06:13:36-06:00,4625,indigo.shah,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),IT,Singapore,1000403
+2026-11-18T06:14:08-06:00,4625,jordan.brooks,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),IT,Singapore,1000404
+2026-11-18T06:14:40-06:00,4625,kai.nguyen,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Singapore,1000405
+2026-11-18T06:15:12-06:00,4625,logan.price,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Singapore,1000406
+2026-11-18T06:15:44-06:00,4625,morgan.hayes,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Singapore,1000407
+2026-11-18T06:16:16-06:00,4625,noel.cruz,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Singapore,1000408
+2026-11-18T06:16:48-06:00,4625,oakley.ward,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Singapore,1000409
+2026-11-18T06:17:20-06:00,4625,peyton.ross,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Singapore,1000410
+2026-11-18T06:17:52-06:00,4625,quinn.bell,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Singapore,1000411
+2026-11-18T06:18:24-06:00,4625,riley.cole,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Singapore,1000412
+2026-11-18T06:18:56-06:00,4625,sage.foster,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Singapore,1000413
+2026-11-18T06:19:28-06:00,4625,taylor.wong,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,Singapore,1000414
+2026-11-18T06:20:00-06:00,4625,avery.adams,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),HR,Singapore,1000415
+2026-11-18T06:20:32-06:00,4625,cameron.baker,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),HR,Singapore,1000416
+2026-11-18T06:21:04-06:00,4625,dakota.clark,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),HR,Singapore,1000417
+2026-11-18T06:21:36-06:00,4625,emerson.davis,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),HR,Singapore,1000418
+2026-11-18T06:22:08-06:00,4625,finley.evans,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),HR,Singapore,1000419
+2026-11-18T06:22:40-06:00,4625,hayden.flores,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),HR,Singapore,1000420
+2026-11-18T06:23:12-06:00,4625,jamie.green,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),HR,Singapore,1000421
+2026-11-18T06:23:44-06:00,4625,kendall.hill,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),HR,Singapore,1000422
+2026-11-18T06:24:16-06:00,4625,lane.ivanov,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),HR,Singapore,1000423
+2026-11-18T06:24:48-06:00,4625,marley.james,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),HR,Singapore,1000424
+2026-11-18T06:25:20-06:00,4625,nolan.kelly,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Engineering,Singapore,1000425
+2026-11-18T06:25:52-06:00,4625,oliver.lee,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Engineering,Singapore,1000426
+2026-11-18T06:26:24-06:00,4625,paige.miller,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Engineering,Singapore,1000427
+2026-11-18T06:26:56-06:00,4625,reese.nash,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Engineering,Singapore,1000428
+2026-11-18T06:27:28-06:00,4625,skyler.owens,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Engineering,Singapore,1000429
+2026-11-18T06:28:00-06:00,4625,teagan.perry,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Engineering,Singapore,1000430
+2026-11-18T06:28:32-06:00,4625,val.roberts,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Engineering,Singapore,1000431
+2026-11-18T06:29:04-06:00,4625,winter.scott,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Engineering,Singapore,1000432
+2026-11-18T06:29:36-06:00,4625,zion.turner,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Engineering,Singapore,1000433
+2026-11-18T06:30:08-06:00,4625,aria.walker,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Engineering,Singapore,1000434
+2026-11-18T06:30:40-06:00,4625,ben.young,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Sales,Singapore,1000435
+2026-11-18T06:31:12-06:00,4625,chloe.allen,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Sales,Singapore,1000436
+2026-11-18T06:31:44-06:00,4625,devon.brown,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Sales,Singapore,1000437
+2026-11-18T06:32:16-06:00,4625,elena.carter,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Sales,Singapore,1000438
+2026-11-18T06:32:48-06:00,4625,felix.diaz,203.0.113.154,NS-APP01,3,NTLM,-,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Sales,Singapore,1000439
+2026-11-18T07:00:34-06:00,4624,peyton.ross,10.24.10.101,NS-WS01,2,Kerberos,NS-WS01,Success,,Finance,United States,1000440
+2026-11-18T07:03:11-06:00,4624,jude.hall,10.24.10.104,NS-WS04,2,Kerberos,NS-WS04,Success,,Sales,United States,1000441
+2026-11-18T07:04:59-06:00,4624,logan.price,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Success,,Finance,United States,1000442
+2026-11-18T07:13:02-06:00,4624,dakota.clark,10.24.10.108,NS-WS08,2,Kerberos,NS-WS08,Success,,HR,United States,1000443
+2026-11-18T07:17:28-06:00,4624,nolan.kelly,10.24.10.101,NS-WS01,2,Kerberos,NS-WS01,Success,,Engineering,United States,1000444
+2026-11-18T07:30:06-06:00,4624,winter.scott,10.24.10.108,NS-WS08,2,Kerberos,NS-WS08,Success,,Engineering,United States,1000445
+2026-11-18T07:45:47-06:00,4624,teagan.perry,10.24.10.106,NS-WS06,2,Kerberos,NS-WS06,Success,,Engineering,United States,1000446
+2026-11-18T07:56:08-06:00,4624,casey.patel,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Success,,IT,United States,1000447
+2026-11-18T08:02:36-06:00,4624,indigo.shah,10.24.10.109,NS-WS09,2,Kerberos,NS-WS09,Success,,IT,United States,1000448
+2026-11-18T08:03:05-06:00,4624,aria.walker,10.24.10.110,NS-WS10,2,Kerberos,NS-WS10,Success,,Engineering,United States,1000449
+2026-11-18T08:05:44-06:00,4624,kendall.hill,198.51.100.47,NS-WS13,10,Kerberos,NS-WS13,Success,,HR,United States,1000450
+2026-11-18T08:14:06-06:00,4624,iris.garcia,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Success,,Sales,United States,1000451
+2026-11-18T08:14:26-06:00,4624,harper.kim,10.24.10.108,NS-WS08,2,Kerberos,NS-WS08,Success,,IT,United States,1000452
+2026-11-18T08:14:47-06:00,4624,grace.edwards,198.51.100.65,NS-WS01,10,Kerberos,NS-WS01,Success,,Sales,United States,1000453
+2026-11-18T08:25:20-06:00,4624,morgan.hayes,10.24.10.113,NS-WS13,2,Kerberos,NS-WS13,Success,,Finance,United States,1000454
+2026-11-18T08:26:54-06:00,4624,lane.ivanov,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Success,,HR,United States,1000455
+2026-11-18T08:27:42-06:00,4624,skyler.owens,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Success,,Engineering,United States,1000456
+2026-11-18T08:27:48-06:00,4624,blair.chen,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Success,,IT,United States,1000457
+2026-11-18T08:30:34-06:00,4624,jordan.brooks,198.51.100.29,NS-WS10,10,Kerberos,NS-WS10,Success,,IT,United States,1000458
+2026-11-18T08:33:47-06:00,4624,emerson.davis,10.24.10.109,NS-WS09,2,Kerberos,NS-WS09,Success,,HR,United States,1000459
+2026-11-18T08:38:26-06:00,4624,oakley.ward,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Success,,Finance,United States,1000460
+2026-11-18T08:38:49-06:00,4624,alex.morgan,198.51.100.20,NS-WS01,10,Kerberos,NS-WS01,Success,,IT,United States,1000461
+2026-11-18T08:41:36-06:00,4624,gray.taylor,10.24.10.107,NS-WS07,2,Kerberos,NS-WS07,Success,,IT,United States,1000462
+2026-11-18T08:42:25-06:00,4624,sage.foster,198.51.100.38,NS-WS04,10,Kerberos,NS-WS04,Success,,Finance,United States,1000463
+2026-11-18T08:44:52-06:00,4624,reese.nash,10.24.10.104,NS-WS04,2,Kerberos,NS-WS04,Success,,Engineering,United States,1000464
+2026-11-18T08:47:39-06:00,4624,kai.nguyen,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Success,,Finance,United States,1000465
+2026-11-18T08:48:01-06:00,4624,hugo.ford,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Success,,Sales,United States,1000466
+2026-11-18T08:56:42-06:00,4624,drew.parker,10.24.10.104,NS-WS04,2,Kerberos,NS-WS04,Success,,IT,United States,1000467
+2026-11-18T08:57:07-06:00,4624,elena.carter,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Success,,Sales,United States,1000468
+2026-11-18T08:59:24-06:00,4624,noel.cruz,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Success,,Finance,United States,1000469
+2026-11-18T09:01:02-06:00,4624,ellis.rivera,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Success,,IT,United States,1000470
+2026-11-18T09:07:30-06:00,4624,avery.adams,10.24.10.106,NS-WS06,2,Kerberos,NS-WS06,Success,,HR,United States,1000471
+2026-11-18T09:11:01-06:00,4624,cameron.baker,10.24.10.107,NS-WS07,2,Kerberos,NS-WS07,Success,,HR,United States,1000472
+2026-11-18T09:12:30-06:00,4624,jamie.green,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Success,,HR,United States,1000473
+2026-11-18T09:21:33-06:00,4624,val.roberts,198.51.100.56,NS-WS07,10,Kerberos,NS-WS07,Success,,Engineering,United States,1000474
+2026-11-18T09:25:05-06:00,4624,hayden.flores,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Success,,HR,United States,1000475
+2026-11-18T09:33:37-06:00,4624,felix.diaz,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Success,,Sales,United States,1000476
+2026-11-18T09:42:07-06:00,4624,finley.evans,10.24.10.110,NS-WS10,2,Kerberos,NS-WS10,Success,,HR,United States,1000477
+2026-11-18T09:46:17-06:00,4624,quinn.bell,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Success,,Finance,United States,1000478
+2026-11-18T09:58:51-06:00,4624,paige.miller,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Success,,Engineering,United States,1000479
+2026-11-18T09:59:30-06:00,4624,devon.brown,10.24.10.113,NS-WS13,2,Kerberos,NS-WS13,Success,,Sales,United States,1000480
+2026-11-18T10:00:31-06:00,4624,riley.cole,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Success,,Finance,United States,1000481
+2026-11-18T10:02:36-06:00,4624,ben.young,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Success,,Sales,United States,1000482
+2026-11-18T10:03:11-06:00,4624,chloe.allen,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Success,,Sales,United States,1000483
+2026-11-18T10:03:41-06:00,4624,oliver.lee,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Success,,Engineering,United States,1000484
+2026-11-18T10:13:35-06:00,4624,leah.jackson,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Success,,Sales,United States,1000485
+2026-11-18T10:28:00-06:00,4624,taylor.wong,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Success,,Finance,United States,1000486
+2026-11-18T10:39:37-06:00,4624,zion.turner,10.24.10.109,NS-WS09,2,Kerberos,NS-WS09,Success,,Engineering,United States,1000487
+2026-11-18T10:44:50-06:00,4624,marley.james,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Success,,HR,United States,1000488
+2026-11-18T10:53:39-06:00,4624,frankie.reed,10.24.10.106,NS-WS06,2,Kerberos,NS-WS06,Success,,IT,United States,1000489
+2026-11-18T11:00:31-06:00,4648,alex.morgan,10.24.10.101,NS-WS01,3,NTLM,NS-WS01,Explicit credentials attempted,,IT,United States,1000490
+2026-11-18T11:00:33-06:00,4624,alex.morgan,10.24.10.101,NS-FS01,3,NTLM,NS-WS01,Success,,IT,United States,1000491
+2026-11-18T11:00:34-06:00,4672,alex.morgan,10.24.10.101,NS-FS01,3,NTLM,NS-WS01,Special privileges assigned,,IT,United States,1000492
+2026-11-18T11:06:21-06:00,4648,blair.chen,10.24.10.102,NS-WS02,3,NTLM,NS-WS02,Explicit credentials attempted,,IT,United States,1000493
+2026-11-18T11:06:23-06:00,4624,blair.chen,10.24.10.102,NS-FS01,3,NTLM,NS-WS02,Success,,IT,United States,1000494
+2026-11-18T11:06:24-06:00,4672,blair.chen,10.24.10.102,NS-FS01,3,NTLM,NS-WS02,Special privileges assigned,,IT,United States,1000495
+2026-11-18T11:12:31-06:00,4634,alex.morgan,10.24.10.101,NS-FS01,3,NTLM,NS-WS01,Logoff,,IT,United States,1000496
+2026-11-18T11:12:37-06:00,4648,casey.patel,10.24.10.103,NS-WS03,3,NTLM,NS-WS03,Explicit credentials attempted,,IT,United States,1000497
+2026-11-18T11:12:39-06:00,4624,casey.patel,10.24.10.103,NS-FS01,3,NTLM,NS-WS03,Success,,IT,United States,1000498
+2026-11-18T11:12:40-06:00,4672,casey.patel,10.24.10.103,NS-FS01,3,NTLM,NS-WS03,Special privileges assigned,,IT,United States,1000499
+2026-11-18T11:18:21-06:00,4634,blair.chen,10.24.10.102,NS-FS01,3,NTLM,NS-WS02,Logoff,,IT,United States,1000500
+2026-11-18T11:18:58-06:00,4648,drew.parker,10.24.10.104,NS-WS04,3,NTLM,NS-WS04,Explicit credentials attempted,,IT,United States,1000501
+2026-11-18T11:19:00-06:00,4624,drew.parker,10.24.10.104,NS-FS01,3,NTLM,NS-WS04,Success,,IT,United States,1000502
+2026-11-18T11:19:01-06:00,4672,drew.parker,10.24.10.104,NS-FS01,3,NTLM,NS-WS04,Special privileges assigned,,IT,United States,1000503
+2026-11-18T11:24:21-06:00,4648,ellis.rivera,10.24.10.105,NS-WS05,3,NTLM,NS-WS05,Explicit credentials attempted,,IT,United States,1000504
+2026-11-18T11:24:23-06:00,4624,ellis.rivera,10.24.10.105,NS-FS01,3,NTLM,NS-WS05,Success,,IT,United States,1000505
+2026-11-18T11:24:24-06:00,4672,ellis.rivera,10.24.10.105,NS-FS01,3,NTLM,NS-WS05,Special privileges assigned,,IT,United States,1000506
+2026-11-18T11:24:37-06:00,4634,casey.patel,10.24.10.103,NS-FS01,3,NTLM,NS-WS03,Logoff,,IT,United States,1000507
+2026-11-18T11:30:58-06:00,4634,drew.parker,10.24.10.104,NS-FS01,3,NTLM,NS-WS04,Logoff,,IT,United States,1000508
+2026-11-18T11:36:21-06:00,4634,ellis.rivera,10.24.10.105,NS-FS01,3,NTLM,NS-WS05,Logoff,,IT,United States,1000509
+2026-11-18T13:03:29-06:00,4624,svc_monitor,10.24.20.13,NS-DC01,3,Kerberos,NS-APP01,Success,,IT,United States,1000510
+2026-11-18T13:05:56-06:00,4624,svc_backup,10.24.20.11,NS-DC01,3,Kerberos,NS-FS01,Success,,IT,United States,1000511
+2026-11-18T13:06:00-06:00,4624,svc_sql,10.24.20.12,NS-DC01,3,Kerberos,NS-SQL01,Success,,IT,United States,1000512
+2026-11-18T13:07:15-06:00,4624,svc_deploy,10.24.20.13,NS-DC02,3,Kerberos,NS-APP01,Success,,IT,United States,1000513
+2026-11-18T13:09:05-06:00,4624,svc_report,10.24.20.12,NS-DC02,3,Kerberos,NS-SQL01,Success,,IT,United States,1000514
+2026-11-18T13:13:29-06:00,4634,svc_monitor,10.24.20.13,NS-DC01,3,Kerberos,NS-APP01,Logoff,,IT,United States,1000515
+2026-11-18T13:15:56-06:00,4634,svc_backup,10.24.20.11,NS-DC01,3,Kerberos,NS-FS01,Logoff,,IT,United States,1000516
+2026-11-18T13:16:00-06:00,4634,svc_sql,10.24.20.12,NS-DC01,3,Kerberos,NS-SQL01,Logoff,,IT,United States,1000517
+2026-11-18T13:17:15-06:00,4634,svc_deploy,10.24.20.13,NS-DC02,3,Kerberos,NS-APP01,Logoff,,IT,United States,1000518
+2026-11-18T13:19:05-06:00,4634,svc_report,10.24.20.12,NS-DC02,3,Kerberos,NS-SQL01,Logoff,,IT,United States,1000519
+2026-11-18T13:56:08-06:00,4634,casey.patel,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Logoff,,IT,United States,1000520
+2026-11-18T14:04:24-06:00,4625,morgan.hayes,10.24.10.113,NS-WS13,2,Kerberos,NS-WS13,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,United States,1000521
+2026-11-18T14:04:49-06:00,4624,morgan.hayes,10.24.10.113,NS-WS13,2,Kerberos,NS-WS13,Success,,Finance,United States,1000522
+2026-11-18T14:06:11-06:00,4634,jude.hall,10.24.10.104,NS-WS04,2,Kerberos,NS-WS04,Logoff,,Sales,United States,1000523
+2026-11-18T14:14:21-06:00,4625,riley.cole,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,United States,1000524
+2026-11-18T14:14:46-06:00,4624,riley.cole,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Success,,Finance,United States,1000525
+2026-11-18T14:24:09-06:00,4625,dakota.clark,10.24.10.108,NS-WS08,2,Kerberos,NS-WS08,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),HR,United States,1000526
+2026-11-18T14:24:34-06:00,4624,dakota.clark,10.24.10.108,NS-WS08,2,Kerberos,NS-WS08,Success,,HR,United States,1000527
+2026-11-18T14:25:28-06:00,4634,nolan.kelly,10.24.10.101,NS-WS01,2,Kerberos,NS-WS01,Logoff,,Engineering,United States,1000528
+2026-11-18T14:25:59-06:00,4634,logan.price,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Logoff,,Finance,United States,1000529
+2026-11-18T14:31:44-06:00,4634,kendall.hill,198.51.100.47,NS-WS13,10,Kerberos,NS-WS13,Logoff,,HR,United States,1000530
+2026-11-18T14:34:09-06:00,4625,kendall.hill,10.24.10.113,NS-WS13,2,Kerberos,NS-WS13,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),HR,United States,1000531
+2026-11-18T14:34:34-06:00,4624,kendall.hill,10.24.10.113,NS-WS13,2,Kerberos,NS-WS13,Success,,HR,United States,1000532
+2026-11-18T14:39:24-06:00,4634,morgan.hayes,10.24.10.113,NS-WS13,2,Kerberos,NS-WS13,Logoff,,Finance,United States,1000533
+2026-11-18T14:42:47-06:00,4634,emerson.davis,10.24.10.109,NS-WS09,2,Kerberos,NS-WS09,Logoff,,HR,United States,1000534
+2026-11-18T14:49:21-06:00,4634,riley.cole,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Logoff,,Finance,United States,1000535
+2026-11-18T14:52:36-06:00,4634,gray.taylor,10.24.10.107,NS-WS07,2,Kerberos,NS-WS07,Logoff,,IT,United States,1000536
+2026-11-18T14:55:01-06:00,4634,hugo.ford,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Logoff,,Sales,United States,1000537
+2026-11-18T14:58:49-06:00,4634,alex.morgan,198.51.100.20,NS-WS01,10,Kerberos,NS-WS01,Logoff,,IT,United States,1000538
+2026-11-18T14:59:09-06:00,4634,dakota.clark,10.24.10.108,NS-WS08,2,Kerberos,NS-WS08,Logoff,,HR,United States,1000539
+2026-11-18T14:59:52-06:00,4634,reese.nash,10.24.10.104,NS-WS04,2,Kerberos,NS-WS04,Logoff,,Engineering,United States,1000540
+2026-11-18T15:08:36-06:00,4634,indigo.shah,10.24.10.109,NS-WS09,2,Kerberos,NS-WS09,Logoff,,IT,United States,1000541
+2026-11-18T15:08:47-06:00,4634,teagan.perry,10.24.10.106,NS-WS06,2,Kerberos,NS-WS06,Logoff,,Engineering,United States,1000542
+2026-11-18T15:09:09-06:00,4634,kendall.hill,10.24.10.113,NS-WS13,2,Kerberos,NS-WS13,Logoff,,HR,United States,1000543
+2026-11-18T15:16:30-06:00,4634,jamie.green,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Logoff,,HR,United States,1000544
+2026-11-18T15:18:05-06:00,4634,aria.walker,10.24.10.110,NS-WS10,2,Kerberos,NS-WS10,Logoff,,Engineering,United States,1000545
+2026-11-18T15:19:25-06:00,4634,sage.foster,198.51.100.38,NS-WS04,10,Kerberos,NS-WS04,Logoff,,Finance,United States,1000546
+2026-11-18T15:23:02-06:00,4634,ellis.rivera,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Logoff,,IT,United States,1000547
+2026-11-18T15:28:30-06:00,4634,avery.adams,10.24.10.106,NS-WS06,2,Kerberos,NS-WS06,Logoff,,HR,United States,1000548
+2026-11-18T15:29:34-06:00,4634,peyton.ross,10.24.10.101,NS-WS01,2,Kerberos,NS-WS01,Logoff,,Finance,United States,1000549
+2026-11-18T15:32:24-06:00,4634,noel.cruz,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Logoff,,Finance,United States,1000550
+2026-11-18T15:43:42-06:00,4634,skyler.owens,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Logoff,,Engineering,United States,1000551
+2026-11-18T15:47:02-06:00,4634,dakota.clark,10.24.10.108,NS-WS08,2,Kerberos,NS-WS08,Logoff,,HR,United States,1000552
+2026-11-18T15:53:06-06:00,4634,winter.scott,10.24.10.108,NS-WS08,2,Kerberos,NS-WS08,Logoff,,Engineering,United States,1000553
+2026-11-18T15:56:37-06:00,4634,felix.diaz,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Logoff,,Sales,United States,1000554
+2026-11-18T15:58:54-06:00,4634,lane.ivanov,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Logoff,,HR,United States,1000555
+2026-11-18T16:07:42-06:00,4634,drew.parker,10.24.10.104,NS-WS04,2,Kerberos,NS-WS04,Logoff,,IT,United States,1000556
+2026-11-18T16:17:06-06:00,4634,iris.garcia,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Logoff,,Sales,United States,1000557
+2026-11-18T16:20:26-06:00,4634,harper.kim,10.24.10.108,NS-WS08,2,Kerberos,NS-WS08,Logoff,,IT,United States,1000558
+2026-11-18T16:23:11-06:00,4634,chloe.allen,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Logoff,,Sales,United States,1000559
+2026-11-18T16:23:35-06:00,4634,leah.jackson,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Logoff,,Sales,United States,1000560
+2026-11-18T16:24:36-06:00,4634,ben.young,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Logoff,,Sales,United States,1000561
+2026-11-18T16:25:33-06:00,4634,val.roberts,198.51.100.56,NS-WS07,10,Kerberos,NS-WS07,Logoff,,Engineering,United States,1000562
+2026-11-18T16:27:30-06:00,4634,devon.brown,10.24.10.113,NS-WS13,2,Kerberos,NS-WS13,Logoff,,Sales,United States,1000563
+2026-11-18T16:29:48-06:00,4634,blair.chen,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Logoff,,IT,United States,1000564
+2026-11-18T16:30:05-06:00,4634,hayden.flores,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Logoff,,HR,United States,1000565
+2026-11-18T16:34:34-06:00,4634,jordan.brooks,198.51.100.29,NS-WS10,10,Kerberos,NS-WS10,Logoff,,IT,United States,1000566
+2026-11-18T16:35:47-06:00,4634,grace.edwards,198.51.100.65,NS-WS01,10,Kerberos,NS-WS01,Logoff,,Sales,United States,1000567
+2026-11-18T16:36:31-06:00,4634,riley.cole,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Logoff,,Finance,United States,1000568
+2026-11-18T16:43:07-06:00,4634,finley.evans,10.24.10.110,NS-WS10,2,Kerberos,NS-WS10,Logoff,,HR,United States,1000569
+2026-11-18T16:45:00-06:00,4634,taylor.wong,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Logoff,,Finance,United States,1000570
+2026-11-18T16:51:20-06:00,4634,morgan.hayes,10.24.10.113,NS-WS13,2,Kerberos,NS-WS13,Logoff,,Finance,United States,1000571
+2026-11-18T16:56:37-06:00,4634,zion.turner,10.24.10.109,NS-WS09,2,Kerberos,NS-WS09,Logoff,,Engineering,United States,1000572
+2026-11-18T17:10:41-06:00,4634,oliver.lee,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Logoff,,Engineering,United States,1000573
+2026-11-18T17:12:17-06:00,4634,quinn.bell,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Logoff,,Finance,United States,1000574
+2026-11-18T17:12:26-06:00,4634,oakley.ward,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Logoff,,Finance,United States,1000575
+2026-11-18T17:12:51-06:00,4634,paige.miller,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Logoff,,Engineering,United States,1000576
+2026-11-18T17:14:07-06:00,4634,elena.carter,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Logoff,,Sales,United States,1000577
+2026-11-18T17:16:39-06:00,4634,kai.nguyen,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Logoff,,Finance,United States,1000578
+2026-11-18T17:24:01-06:00,4634,cameron.baker,10.24.10.107,NS-WS07,2,Kerberos,NS-WS07,Logoff,,HR,United States,1000579
+2026-11-18T18:13:50-06:00,4634,marley.james,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Logoff,,HR,United States,1000580
+2026-11-18T19:04:39-06:00,4634,frankie.reed,10.24.10.106,NS-WS06,2,Kerberos,NS-WS06,Logoff,,IT,United States,1000581
+2026-11-18T21:12:00-06:00,4624,devon.brown,192.0.2.32,NS-WS13,10,Kerberos,NS-WS13,Success,,Sales,United States,1000582
+2026-11-18T22:02:00-06:00,4634,devon.brown,192.0.2.32,NS-WS13,10,Kerberos,NS-WS13,Logoff,,Sales,United States,1000583
+2026-11-19T01:00:51-06:00,4624,svc_deploy,10.24.20.13,NS-DC02,3,Kerberos,NS-APP01,Success,,IT,United States,1000584
+2026-11-19T01:05:00-06:00,4624,svc_report,10.24.20.12,NS-DC02,3,Kerberos,NS-SQL01,Success,,IT,United States,1000585
+2026-11-19T01:05:14-06:00,4624,svc_backup,10.24.20.11,NS-DC01,3,Kerberos,NS-FS01,Success,,IT,United States,1000586
+2026-11-19T01:10:49-06:00,4624,svc_monitor,10.24.20.13,NS-DC01,3,Kerberos,NS-APP01,Success,,IT,United States,1000587
+2026-11-19T01:10:51-06:00,4634,svc_deploy,10.24.20.13,NS-DC02,3,Kerberos,NS-APP01,Logoff,,IT,United States,1000588
+2026-11-19T01:12:12-06:00,4624,svc_sql,10.24.20.12,NS-DC01,3,Kerberos,NS-SQL01,Success,,IT,United States,1000589
+2026-11-19T01:15:00-06:00,4634,svc_report,10.24.20.12,NS-DC02,3,Kerberos,NS-SQL01,Logoff,,IT,United States,1000590
+2026-11-19T01:15:14-06:00,4634,svc_backup,10.24.20.11,NS-DC01,3,Kerberos,NS-FS01,Logoff,,IT,United States,1000591
+2026-11-19T01:20:49-06:00,4634,svc_monitor,10.24.20.13,NS-DC01,3,Kerberos,NS-APP01,Logoff,,IT,United States,1000592
+2026-11-19T01:22:12-06:00,4634,svc_sql,10.24.20.12,NS-DC01,3,Kerberos,NS-SQL01,Logoff,,IT,United States,1000593
+2026-11-19T02:17:00-06:00,4625,harper.kim,10.24.10.114,NS-DC02,3,NTLM,NS-WS14,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),IT,United States,1000594
+2026-11-19T02:17:18-06:00,4625,harper.kim,10.24.10.114,NS-DC02,3,NTLM,NS-WS14,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),IT,United States,1000595
+2026-11-19T02:17:36-06:00,4625,harper.kim,10.24.10.114,NS-DC02,3,NTLM,NS-WS14,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),IT,United States,1000596
+2026-11-19T02:17:54-06:00,4625,harper.kim,10.24.10.114,NS-DC02,3,NTLM,NS-WS14,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),IT,United States,1000597
+2026-11-19T02:18:30-06:00,4648,harper.kim,10.24.10.114,NS-WS14,3,NTLM,NS-WS14,Explicit credentials attempted,,IT,United States,1000598
+2026-11-19T02:18:32-06:00,4624,harper.kim,10.24.10.114,NS-DC02,3,NTLM,NS-WS14,Success,,IT,United States,1000599
+2026-11-19T02:18:33-06:00,4672,harper.kim,10.24.10.114,NS-DC02,3,NTLM,NS-WS14,Special privileges assigned,,IT,United States,1000600
+2026-11-19T02:29:00-06:00,4634,harper.kim,10.24.10.114,NS-DC02,3,NTLM,NS-WS14,Logoff,,IT,United States,1000601
+2026-11-19T07:16:47-06:00,4624,skyler.owens,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Success,,Engineering,United States,1000602
+2026-11-19T07:19:28-06:00,4624,jordan.brooks,198.51.100.29,NS-WS10,10,Kerberos,NS-WS10,Success,,IT,United States,1000603
+2026-11-19T07:20:38-06:00,4624,cameron.baker,10.24.10.107,NS-WS07,2,Kerberos,NS-WS07,Success,,HR,United States,1000604
+2026-11-19T07:34:05-06:00,4624,riley.cole,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Success,,Finance,United States,1000605
+2026-11-19T07:45:02-06:00,4624,lane.ivanov,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Success,,HR,United States,1000606
+2026-11-19T08:00:12-06:00,4624,emerson.davis,10.24.10.109,NS-WS09,2,Kerberos,NS-WS09,Success,,HR,United States,1000607
+2026-11-19T08:02:53-06:00,4624,kai.nguyen,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Success,,Finance,United States,1000608
+2026-11-19T08:06:16-06:00,4624,oakley.ward,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Success,,Finance,United States,1000609
+2026-11-19T08:09:49-06:00,4624,paige.miller,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Success,,Engineering,United States,1000610
+2026-11-19T08:20:05-06:00,4624,zion.turner,10.24.10.109,NS-WS09,2,Kerberos,NS-WS09,Success,,Engineering,United States,1000611
+2026-11-19T08:26:21-06:00,4624,hayden.flores,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Success,,HR,United States,1000612
+2026-11-19T08:29:56-06:00,4624,reese.nash,10.24.10.104,NS-WS04,2,Kerberos,NS-WS04,Success,,Engineering,United States,1000613
+2026-11-19T08:30:26-06:00,4624,val.roberts,198.51.100.56,NS-WS07,10,Kerberos,NS-WS07,Success,,Engineering,United States,1000614
+2026-11-19T08:33:16-06:00,4624,morgan.hayes,10.24.10.113,NS-WS13,2,Kerberos,NS-WS13,Success,,Finance,United States,1000615
+2026-11-19T08:43:30-06:00,4624,nolan.kelly,10.24.10.101,NS-WS01,2,Kerberos,NS-WS01,Success,,Engineering,United States,1000616
+2026-11-19T08:51:49-06:00,4624,jude.hall,10.24.10.104,NS-WS04,2,Kerberos,NS-WS04,Success,,Sales,United States,1000617
+2026-11-19T08:52:47-06:00,4624,sage.foster,198.51.100.38,NS-WS04,10,Kerberos,NS-WS04,Success,,Finance,United States,1000618
+2026-11-19T09:04:16-06:00,4624,avery.adams,10.24.10.106,NS-WS06,2,Kerberos,NS-WS06,Success,,HR,United States,1000619
+2026-11-19T09:05:09-06:00,4624,noel.cruz,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Success,,Finance,United States,1000620
+2026-11-19T09:05:45-06:00,4624,drew.parker,10.24.10.104,NS-WS04,2,Kerberos,NS-WS04,Success,,IT,United States,1000621
+2026-11-19T09:06:02-06:00,4624,peyton.ross,10.24.10.101,NS-WS01,2,Kerberos,NS-WS01,Success,,Finance,United States,1000622
+2026-11-19T09:09:46-06:00,4624,taylor.wong,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Success,,Finance,United States,1000623
+2026-11-19T09:10:44-06:00,4624,gray.taylor,10.24.10.107,NS-WS07,2,Kerberos,NS-WS07,Success,,IT,United States,1000624
+2026-11-19T09:13:10-06:00,4624,indigo.shah,10.24.10.109,NS-WS09,2,Kerberos,NS-WS09,Success,,IT,United States,1000625
+2026-11-19T09:13:36-06:00,4624,ben.young,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Success,,Sales,United States,1000626
+2026-11-19T09:15:08-06:00,4624,elena.carter,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Success,,Sales,United States,1000627
+2026-11-19T09:19:51-06:00,4624,harper.kim,10.24.10.108,NS-WS08,2,Kerberos,NS-WS08,Success,,IT,United States,1000628
+2026-11-19T09:24:58-06:00,4624,ellis.rivera,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Success,,IT,United States,1000629
+2026-11-19T09:26:10-06:00,4624,jamie.green,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Success,,HR,United States,1000630
+2026-11-19T09:31:47-06:00,4624,quinn.bell,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Success,,Finance,United States,1000631
+2026-11-19T09:38:23-06:00,4624,chloe.allen,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Success,,Sales,United States,1000632
+2026-11-19T09:41:50-06:00,4624,finley.evans,10.24.10.110,NS-WS10,2,Kerberos,NS-WS10,Success,,HR,United States,1000633
+2026-11-19T09:44:51-06:00,4624,casey.patel,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Success,,IT,United States,1000634
+2026-11-19T09:47:27-06:00,4624,iris.garcia,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Success,,Sales,United States,1000635
+2026-11-19T09:52:12-06:00,4624,oliver.lee,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Success,,Engineering,United States,1000636
+2026-11-19T09:52:39-06:00,4624,grace.edwards,198.51.100.65,NS-WS01,10,Kerberos,NS-WS01,Success,,Sales,United States,1000637
+2026-11-19T09:56:57-06:00,4624,felix.diaz,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Success,,Sales,United States,1000638
+2026-11-19T10:00:06-06:00,4624,marley.james,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Success,,HR,United States,1000639
+2026-11-19T10:02:19-06:00,4624,kendall.hill,198.51.100.47,NS-WS13,10,Kerberos,NS-WS13,Success,,HR,United States,1000640
+2026-11-19T10:03:13-06:00,4624,frankie.reed,10.24.10.106,NS-WS06,2,Kerberos,NS-WS06,Success,,IT,United States,1000641
+2026-11-19T10:04:19-06:00,4624,blair.chen,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Success,,IT,United States,1000642
+2026-11-19T10:16:24-06:00,4624,alex.morgan,198.51.100.20,NS-WS01,10,Kerberos,NS-WS01,Success,,IT,United States,1000643
+2026-11-19T10:20:43-06:00,4624,teagan.perry,10.24.10.106,NS-WS06,2,Kerberos,NS-WS06,Success,,Engineering,United States,1000644
+2026-11-19T10:23:09-06:00,4624,aria.walker,10.24.10.110,NS-WS10,2,Kerberos,NS-WS10,Success,,Engineering,United States,1000645
+2026-11-19T10:27:12-06:00,4624,hugo.ford,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Success,,Sales,United States,1000646
+2026-11-19T10:32:34-06:00,4624,dakota.clark,10.24.10.108,NS-WS08,2,Kerberos,NS-WS08,Success,,HR,United States,1000647
+2026-11-19T10:38:31-06:00,4624,devon.brown,10.24.10.113,NS-WS13,2,Kerberos,NS-WS13,Success,,Sales,United States,1000648
+2026-11-19T10:51:13-06:00,4624,logan.price,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Success,,Finance,United States,1000649
+2026-11-19T10:56:08-06:00,4624,winter.scott,10.24.10.108,NS-WS08,2,Kerberos,NS-WS08,Success,,Engineering,United States,1000650
+2026-11-19T10:56:14-06:00,4624,leah.jackson,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Success,,Sales,United States,1000651
+2026-11-19T11:00:40-06:00,4648,alex.morgan,10.24.10.101,NS-WS01,3,NTLM,NS-WS01,Explicit credentials attempted,,IT,United States,1000652
+2026-11-19T11:00:42-06:00,4624,alex.morgan,10.24.10.101,NS-FS01,3,NTLM,NS-WS01,Success,,IT,United States,1000653
+2026-11-19T11:00:43-06:00,4672,alex.morgan,10.24.10.101,NS-FS01,3,NTLM,NS-WS01,Special privileges assigned,,IT,United States,1000654
+2026-11-19T11:06:14-06:00,4648,blair.chen,10.24.10.102,NS-WS02,3,NTLM,NS-WS02,Explicit credentials attempted,,IT,United States,1000655
+2026-11-19T11:06:16-06:00,4624,blair.chen,10.24.10.102,NS-FS01,3,NTLM,NS-WS02,Success,,IT,United States,1000656
+2026-11-19T11:06:17-06:00,4672,blair.chen,10.24.10.102,NS-FS01,3,NTLM,NS-WS02,Special privileges assigned,,IT,United States,1000657
+2026-11-19T11:12:40-06:00,4634,alex.morgan,10.24.10.101,NS-FS01,3,NTLM,NS-WS01,Logoff,,IT,United States,1000658
+2026-11-19T11:12:59-06:00,4648,casey.patel,10.24.10.103,NS-WS03,3,NTLM,NS-WS03,Explicit credentials attempted,,IT,United States,1000659
+2026-11-19T11:13:01-06:00,4624,casey.patel,10.24.10.103,NS-FS01,3,NTLM,NS-WS03,Success,,IT,United States,1000660
+2026-11-19T11:13:02-06:00,4672,casey.patel,10.24.10.103,NS-FS01,3,NTLM,NS-WS03,Special privileges assigned,,IT,United States,1000661
+2026-11-19T11:18:14-06:00,4634,blair.chen,10.24.10.102,NS-FS01,3,NTLM,NS-WS02,Logoff,,IT,United States,1000662
+2026-11-19T11:18:34-06:00,4648,drew.parker,10.24.10.104,NS-WS04,3,NTLM,NS-WS04,Explicit credentials attempted,,IT,United States,1000663
+2026-11-19T11:18:36-06:00,4624,drew.parker,10.24.10.104,NS-FS01,3,NTLM,NS-WS04,Success,,IT,United States,1000664
+2026-11-19T11:18:37-06:00,4672,drew.parker,10.24.10.104,NS-FS01,3,NTLM,NS-WS04,Special privileges assigned,,IT,United States,1000665
+2026-11-19T11:24:36-06:00,4648,ellis.rivera,10.24.10.105,NS-WS05,3,NTLM,NS-WS05,Explicit credentials attempted,,IT,United States,1000666
+2026-11-19T11:24:38-06:00,4624,ellis.rivera,10.24.10.105,NS-FS01,3,NTLM,NS-WS05,Success,,IT,United States,1000667
+2026-11-19T11:24:39-06:00,4672,ellis.rivera,10.24.10.105,NS-FS01,3,NTLM,NS-WS05,Special privileges assigned,,IT,United States,1000668
+2026-11-19T11:24:59-06:00,4634,casey.patel,10.24.10.103,NS-FS01,3,NTLM,NS-WS03,Logoff,,IT,United States,1000669
+2026-11-19T11:30:34-06:00,4634,drew.parker,10.24.10.104,NS-FS01,3,NTLM,NS-WS04,Logoff,,IT,United States,1000670
+2026-11-19T11:36:36-06:00,4634,ellis.rivera,10.24.10.105,NS-FS01,3,NTLM,NS-WS05,Logoff,,IT,United States,1000671
+2026-11-19T13:04:26-06:00,4624,svc_deploy,10.24.20.13,NS-DC02,3,Kerberos,NS-APP01,Success,,IT,United States,1000672
+2026-11-19T13:08:37-06:00,4624,svc_sql,10.24.20.12,NS-DC01,3,Kerberos,NS-SQL01,Success,,IT,United States,1000673
+2026-11-19T13:09:30-06:00,4624,svc_backup,10.24.20.11,NS-DC01,3,Kerberos,NS-FS01,Success,,IT,United States,1000674
+2026-11-19T13:10:38-06:00,4624,svc_report,10.24.20.12,NS-DC02,3,Kerberos,NS-SQL01,Success,,IT,United States,1000675
+2026-11-19T13:13:32-06:00,4624,svc_monitor,10.24.20.13,NS-DC01,3,Kerberos,NS-APP01,Success,,IT,United States,1000676
+2026-11-19T13:14:26-06:00,4634,svc_deploy,10.24.20.13,NS-DC02,3,Kerberos,NS-APP01,Logoff,,IT,United States,1000677
+2026-11-19T13:18:37-06:00,4634,svc_sql,10.24.20.12,NS-DC01,3,Kerberos,NS-SQL01,Logoff,,IT,United States,1000678
+2026-11-19T13:19:30-06:00,4634,svc_backup,10.24.20.11,NS-DC01,3,Kerberos,NS-FS01,Logoff,,IT,United States,1000679
+2026-11-19T13:20:38-06:00,4634,svc_report,10.24.20.12,NS-DC02,3,Kerberos,NS-SQL01,Logoff,,IT,United States,1000680
+2026-11-19T13:23:32-06:00,4634,svc_monitor,10.24.20.13,NS-DC01,3,Kerberos,NS-APP01,Logoff,,IT,United States,1000681
+2026-11-19T13:45:38-06:00,4634,cameron.baker,10.24.10.107,NS-WS07,2,Kerberos,NS-WS07,Logoff,,HR,United States,1000682
+2026-11-19T13:55:02-06:00,4634,lane.ivanov,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Logoff,,HR,United States,1000683
+2026-11-19T14:06:16-06:00,4634,oakley.ward,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Logoff,,Finance,United States,1000684
+2026-11-19T14:06:45-06:00,4625,noel.cruz,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,United States,1000685
+2026-11-19T14:07:10-06:00,4624,noel.cruz,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Success,,Finance,United States,1000686
+2026-11-19T14:16:52-06:00,4625,sage.foster,10.24.10.104,NS-WS04,2,Kerberos,NS-WS04,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,United States,1000687
+2026-11-19T14:17:17-06:00,4624,sage.foster,10.24.10.104,NS-WS04,2,Kerberos,NS-WS04,Success,,Finance,United States,1000688
+2026-11-19T14:26:45-06:00,4625,emerson.davis,10.24.10.109,NS-WS09,2,Kerberos,NS-WS09,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),HR,United States,1000689
+2026-11-19T14:27:10-06:00,4624,emerson.davis,10.24.10.109,NS-WS09,2,Kerberos,NS-WS09,Success,,HR,United States,1000690
+2026-11-19T14:29:12-06:00,4634,emerson.davis,10.24.10.109,NS-WS09,2,Kerberos,NS-WS09,Logoff,,HR,United States,1000691
+2026-11-19T14:29:47-06:00,4634,skyler.owens,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Logoff,,Engineering,United States,1000692
+2026-11-19T14:36:30-06:00,4625,lane.ivanov,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),HR,United States,1000693
+2026-11-19T14:36:55-06:00,4624,lane.ivanov,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Success,,HR,United States,1000694
+2026-11-19T14:41:45-06:00,4634,noel.cruz,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Logoff,,Finance,United States,1000695
+2026-11-19T14:45:30-06:00,4634,nolan.kelly,10.24.10.101,NS-WS01,2,Kerberos,NS-WS01,Logoff,,Engineering,United States,1000696
+2026-11-19T14:49:16-06:00,4634,morgan.hayes,10.24.10.113,NS-WS13,2,Kerberos,NS-WS13,Logoff,,Finance,United States,1000697
+2026-11-19T14:51:52-06:00,4634,sage.foster,10.24.10.104,NS-WS04,2,Kerberos,NS-WS04,Logoff,,Finance,United States,1000698
+2026-11-19T15:01:45-06:00,4634,emerson.davis,10.24.10.109,NS-WS09,2,Kerberos,NS-WS09,Logoff,,HR,United States,1000699
+2026-11-19T15:11:30-06:00,4634,lane.ivanov,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Logoff,,HR,United States,1000700
+2026-11-19T15:35:02-06:00,4634,peyton.ross,10.24.10.101,NS-WS01,2,Kerberos,NS-WS01,Logoff,,Finance,United States,1000701
+2026-11-19T15:37:28-06:00,4634,jordan.brooks,198.51.100.29,NS-WS10,10,Kerberos,NS-WS10,Logoff,,IT,United States,1000702
+2026-11-19T15:41:05-06:00,4634,riley.cole,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Logoff,,Finance,United States,1000703
+2026-11-19T15:41:36-06:00,4634,ben.young,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Logoff,,Sales,United States,1000704
+2026-11-19T15:49:44-06:00,4634,gray.taylor,10.24.10.107,NS-WS07,2,Kerberos,NS-WS07,Logoff,,IT,United States,1000705
+2026-11-19T15:58:21-06:00,4634,hayden.flores,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Logoff,,HR,United States,1000706
+2026-11-19T16:05:56-06:00,4634,reese.nash,10.24.10.104,NS-WS04,2,Kerberos,NS-WS04,Logoff,,Engineering,United States,1000707
+2026-11-19T16:11:47-06:00,4634,sage.foster,198.51.100.38,NS-WS04,10,Kerberos,NS-WS04,Logoff,,Finance,United States,1000708
+2026-11-19T16:13:19-06:00,4634,kendall.hill,198.51.100.47,NS-WS13,10,Kerberos,NS-WS13,Logoff,,HR,United States,1000709
+2026-11-19T16:13:39-06:00,4634,grace.edwards,198.51.100.65,NS-WS01,10,Kerberos,NS-WS01,Logoff,,Sales,United States,1000710
+2026-11-19T16:15:19-06:00,4634,blair.chen,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Logoff,,IT,United States,1000711
+2026-11-19T16:20:13-06:00,4634,frankie.reed,10.24.10.106,NS-WS06,2,Kerberos,NS-WS06,Logoff,,IT,United States,1000712
+2026-11-19T16:20:16-06:00,4634,avery.adams,10.24.10.106,NS-WS06,2,Kerberos,NS-WS06,Logoff,,HR,United States,1000713
+2026-11-19T16:21:51-06:00,4634,harper.kim,10.24.10.108,NS-WS08,2,Kerberos,NS-WS08,Logoff,,IT,United States,1000714
+2026-11-19T16:23:46-06:00,4634,taylor.wong,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Logoff,,Finance,United States,1000715
+2026-11-19T16:24:09-06:00,4634,noel.cruz,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Logoff,,Finance,United States,1000716
+2026-11-19T16:28:06-06:00,4634,marley.james,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Logoff,,HR,United States,1000717
+2026-11-19T16:28:53-06:00,4634,kai.nguyen,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Logoff,,Finance,United States,1000718
+2026-11-19T16:30:49-06:00,4634,paige.miller,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Logoff,,Engineering,United States,1000719
+2026-11-19T16:33:26-06:00,4634,val.roberts,198.51.100.56,NS-WS07,10,Kerberos,NS-WS07,Logoff,,Engineering,United States,1000720
+2026-11-19T16:39:45-06:00,4634,drew.parker,10.24.10.104,NS-WS04,2,Kerberos,NS-WS04,Logoff,,IT,United States,1000721
+2026-11-19T16:40:10-06:00,4634,jamie.green,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Logoff,,HR,United States,1000722
+2026-11-19T16:43:47-06:00,4634,quinn.bell,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Logoff,,Finance,United States,1000723
+2026-11-19T16:49:05-06:00,4634,zion.turner,10.24.10.109,NS-WS09,2,Kerberos,NS-WS09,Logoff,,Engineering,United States,1000724
+2026-11-19T16:50:10-06:00,4634,indigo.shah,10.24.10.109,NS-WS09,2,Kerberos,NS-WS09,Logoff,,IT,United States,1000725
+2026-11-19T16:50:27-06:00,4634,iris.garcia,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Logoff,,Sales,United States,1000726
+2026-11-19T16:52:08-06:00,4634,elena.carter,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Logoff,,Sales,United States,1000727
+2026-11-19T16:53:58-06:00,4634,ellis.rivera,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Logoff,,IT,United States,1000728
+2026-11-19T16:54:13-06:00,4634,logan.price,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Logoff,,Finance,United States,1000729
+2026-11-19T17:11:57-06:00,4634,felix.diaz,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Logoff,,Sales,United States,1000730
+2026-11-19T17:20:12-06:00,4634,oliver.lee,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Logoff,,Engineering,United States,1000731
+2026-11-19T17:22:43-06:00,4634,teagan.perry,10.24.10.106,NS-WS06,2,Kerberos,NS-WS06,Logoff,,Engineering,United States,1000732
+2026-11-19T17:28:49-06:00,4634,jude.hall,10.24.10.104,NS-WS04,2,Kerberos,NS-WS04,Logoff,,Sales,United States,1000733
+2026-11-19T17:30:24-06:00,4634,alex.morgan,198.51.100.20,NS-WS01,10,Kerberos,NS-WS01,Logoff,,IT,United States,1000734
+2026-11-19T17:56:09-06:00,4634,aria.walker,10.24.10.110,NS-WS10,2,Kerberos,NS-WS10,Logoff,,Engineering,United States,1000735
+2026-11-19T18:01:12-06:00,4634,hugo.ford,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Logoff,,Sales,United States,1000736
+2026-11-19T18:07:34-06:00,4634,dakota.clark,10.24.10.108,NS-WS08,2,Kerberos,NS-WS08,Logoff,,HR,United States,1000737
+2026-11-19T18:11:23-06:00,4634,chloe.allen,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Logoff,,Sales,United States,1000738
+2026-11-19T18:13:50-06:00,4634,finley.evans,10.24.10.110,NS-WS10,2,Kerberos,NS-WS10,Logoff,,HR,United States,1000739
+2026-11-19T18:16:51-06:00,4634,casey.patel,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Logoff,,IT,United States,1000740
+2026-11-19T18:22:08-06:00,4634,winter.scott,10.24.10.108,NS-WS08,2,Kerberos,NS-WS08,Logoff,,Engineering,United States,1000741
+2026-11-19T18:47:31-06:00,4634,devon.brown,10.24.10.113,NS-WS13,2,Kerberos,NS-WS13,Logoff,,Sales,United States,1000742
+2026-11-19T18:58:14-06:00,4634,leah.jackson,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Logoff,,Sales,United States,1000743
+2026-11-19T21:13:00-06:00,4624,elena.carter,192.0.2.33,NS-WS14,10,Kerberos,NS-WS14,Success,,Sales,United States,1000744
+2026-11-19T22:03:00-06:00,4634,elena.carter,192.0.2.33,NS-WS14,10,Kerberos,NS-WS14,Logoff,,Sales,United States,1000745
+2026-11-20T01:08:40-06:00,4624,svc_monitor,10.24.20.13,NS-DC01,3,Kerberos,NS-APP01,Success,,IT,United States,1000746
+2026-11-20T01:10:32-06:00,4624,svc_backup,10.24.20.11,NS-DC01,3,Kerberos,NS-FS01,Success,,IT,United States,1000747
+2026-11-20T01:11:28-06:00,4624,svc_deploy,10.24.20.13,NS-DC02,3,Kerberos,NS-APP01,Success,,IT,United States,1000748
+2026-11-20T01:12:12-06:00,4624,svc_report,10.24.20.12,NS-DC02,3,Kerberos,NS-SQL01,Success,,IT,United States,1000749
+2026-11-20T01:14:42-06:00,4624,svc_sql,10.24.20.12,NS-DC01,3,Kerberos,NS-SQL01,Success,,IT,United States,1000750
+2026-11-20T01:18:40-06:00,4634,svc_monitor,10.24.20.13,NS-DC01,3,Kerberos,NS-APP01,Logoff,,IT,United States,1000751
+2026-11-20T01:20:32-06:00,4634,svc_backup,10.24.20.11,NS-DC01,3,Kerberos,NS-FS01,Logoff,,IT,United States,1000752
+2026-11-20T01:21:28-06:00,4634,svc_deploy,10.24.20.13,NS-DC02,3,Kerberos,NS-APP01,Logoff,,IT,United States,1000753
+2026-11-20T01:22:12-06:00,4634,svc_report,10.24.20.12,NS-DC02,3,Kerberos,NS-SQL01,Logoff,,IT,United States,1000754
+2026-11-20T01:24:42-06:00,4634,svc_sql,10.24.20.12,NS-DC01,3,Kerberos,NS-SQL01,Logoff,,IT,United States,1000755
+2026-11-20T03:08:00-06:00,4648,svc_backup,10.24.10.112,NS-WS12,3,NTLM,NS-WS12,Explicit credentials attempted,,IT,United States,1000756
+2026-11-20T03:08:03-06:00,4624,svc_backup,10.24.10.112,NS-SQL01,3,NTLM,NS-WS12,Success,,IT,United States,1000757
+2026-11-20T03:08:04-06:00,4672,svc_backup,10.24.10.112,NS-SQL01,3,NTLM,NS-WS12,Special privileges assigned,,IT,United States,1000758
+2026-11-20T03:10:03-06:00,4634,svc_backup,10.24.10.112,NS-SQL01,3,NTLM,NS-WS12,Logoff,,IT,United States,1000759
+2026-11-20T03:11:03-06:00,4624,svc_backup,10.24.10.112,NS-APP01,3,NTLM,NS-WS12,Success,,IT,United States,1000760
+2026-11-20T03:11:04-06:00,4672,svc_backup,10.24.10.112,NS-APP01,3,NTLM,NS-WS12,Special privileges assigned,,IT,United States,1000761
+2026-11-20T03:13:03-06:00,4634,svc_backup,10.24.10.112,NS-APP01,3,NTLM,NS-WS12,Logoff,,IT,United States,1000762
+2026-11-20T03:14:03-06:00,4624,svc_backup,10.24.10.112,NS-DC01,3,NTLM,NS-WS12,Success,,IT,United States,1000763
+2026-11-20T03:14:04-06:00,4672,svc_backup,10.24.10.112,NS-DC01,3,NTLM,NS-WS12,Special privileges assigned,,IT,United States,1000764
+2026-11-20T03:16:03-06:00,4634,svc_backup,10.24.10.112,NS-DC01,3,NTLM,NS-WS12,Logoff,,IT,United States,1000765
+2026-11-20T03:17:03-06:00,4624,svc_backup,10.24.10.112,NS-DC02,3,NTLM,NS-WS12,Success,,IT,United States,1000766
+2026-11-20T03:17:04-06:00,4672,svc_backup,10.24.10.112,NS-DC02,3,NTLM,NS-WS12,Special privileges assigned,,IT,United States,1000767
+2026-11-20T03:19:03-06:00,4634,svc_backup,10.24.10.112,NS-DC02,3,NTLM,NS-WS12,Logoff,,IT,United States,1000768
+2026-11-20T07:05:03-06:00,4624,emerson.davis,10.24.10.109,NS-WS09,2,Kerberos,NS-WS09,Success,,HR,United States,1000769
+2026-11-20T07:05:49-06:00,4624,frankie.reed,10.24.10.106,NS-WS06,2,Kerberos,NS-WS06,Success,,IT,United States,1000770
+2026-11-20T07:07:04-06:00,4624,ellis.rivera,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Success,,IT,United States,1000771
+2026-11-20T07:34:27-06:00,4624,felix.diaz,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Success,,Sales,United States,1000772
+2026-11-20T07:50:08-06:00,4624,logan.price,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Success,,Finance,United States,1000773
+2026-11-20T07:53:32-06:00,4624,nolan.kelly,10.24.10.101,NS-WS01,2,Kerberos,NS-WS01,Success,,Engineering,United States,1000774
+2026-11-20T07:55:10-06:00,4624,dakota.clark,10.24.10.108,NS-WS08,2,Kerberos,NS-WS08,Success,,HR,United States,1000775
+2026-11-20T07:56:52-06:00,4624,ben.young,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Success,,Sales,United States,1000776
+2026-11-20T07:56:53-06:00,4624,taylor.wong,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Success,,Finance,United States,1000777
+2026-11-20T08:00:36-06:00,4624,harper.kim,10.24.10.108,NS-WS08,2,Kerberos,NS-WS08,Success,,IT,United States,1000778
+2026-11-20T08:04:31-06:00,4624,teagan.perry,10.24.10.106,NS-WS06,2,Kerberos,NS-WS06,Success,,Engineering,United States,1000779
+2026-11-20T08:05:00-06:00,4624,noel.cruz,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Success,,Finance,United States,1000780
+2026-11-20T08:08:52-06:00,4624,kai.nguyen,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Success,,Finance,United States,1000781
+2026-11-20T08:10:34-06:00,4624,indigo.shah,10.24.10.109,NS-WS09,2,Kerberos,NS-WS09,Success,,IT,United States,1000782
+2026-11-20T08:13:36-06:00,4624,aria.walker,10.24.10.110,NS-WS10,2,Kerberos,NS-WS10,Success,,Engineering,United States,1000783
+2026-11-20T08:14:09-06:00,4624,skyler.owens,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Success,,Engineering,United States,1000784
+2026-11-20T08:23:18-06:00,4624,leah.jackson,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Success,,Sales,United States,1000785
+2026-11-20T08:32:23-06:00,4624,riley.cole,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Success,,Finance,United States,1000786
+2026-11-20T08:40:35-06:00,4624,quinn.bell,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Success,,Finance,United States,1000787
+2026-11-20T08:43:02-06:00,4624,sage.foster,198.51.100.38,NS-WS04,10,Kerberos,NS-WS04,Success,,Finance,United States,1000788
+2026-11-20T08:49:00-06:00,4624,marley.james,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Success,,HR,United States,1000789
+2026-11-20T08:49:35-06:00,4624,morgan.hayes,10.24.10.113,NS-WS13,2,Kerberos,NS-WS13,Success,,Finance,United States,1000790
+2026-11-20T08:49:42-06:00,4624,grace.edwards,198.51.100.65,NS-WS01,10,Kerberos,NS-WS01,Success,,Sales,United States,1000791
+2026-11-20T08:52:12-06:00,4624,winter.scott,10.24.10.108,NS-WS08,2,Kerberos,NS-WS08,Success,,Engineering,United States,1000792
+2026-11-20T08:54:35-06:00,4624,kendall.hill,198.51.100.47,NS-WS13,10,Kerberos,NS-WS13,Success,,HR,United States,1000793
+2026-11-20T08:59:04-06:00,4624,devon.brown,10.24.10.113,NS-WS13,2,Kerberos,NS-WS13,Success,,Sales,United States,1000794
+2026-11-20T08:59:19-06:00,4624,jordan.brooks,198.51.100.29,NS-WS10,10,Kerberos,NS-WS10,Success,,IT,United States,1000795
+2026-11-20T08:59:50-06:00,4624,alex.morgan,198.51.100.20,NS-WS01,10,Kerberos,NS-WS01,Success,,IT,United States,1000796
+2026-11-20T09:02:51-06:00,4624,lane.ivanov,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Success,,HR,United States,1000797
+2026-11-20T09:10:31-06:00,4624,chloe.allen,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Success,,Sales,United States,1000798
+2026-11-20T09:13:28-06:00,4624,zion.turner,10.24.10.109,NS-WS09,2,Kerberos,NS-WS09,Success,,Engineering,United States,1000799
+2026-11-20T09:15:41-06:00,4624,hayden.flores,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Success,,HR,United States,1000800
+2026-11-20T09:17:03-06:00,4624,val.roberts,198.51.100.56,NS-WS07,10,Kerberos,NS-WS07,Success,,Engineering,United States,1000801
+2026-11-20T09:18:44-06:00,4624,iris.garcia,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Success,,Sales,United States,1000802
+2026-11-20T09:19:22-06:00,4624,jude.hall,10.24.10.104,NS-WS04,2,Kerberos,NS-WS04,Success,,Sales,United States,1000803
+2026-11-20T09:31:06-06:00,4624,avery.adams,10.24.10.106,NS-WS06,2,Kerberos,NS-WS06,Success,,HR,United States,1000804
+2026-11-20T09:37:37-06:00,4624,oakley.ward,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Success,,Finance,United States,1000805
+2026-11-20T09:37:38-06:00,4624,casey.patel,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Success,,IT,United States,1000806
+2026-11-20T09:44:56-06:00,4624,hugo.ford,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Success,,Sales,United States,1000807
+2026-11-20T09:49:02-06:00,4624,gray.taylor,10.24.10.107,NS-WS07,2,Kerberos,NS-WS07,Success,,IT,United States,1000808
+2026-11-20T09:49:08-06:00,4624,paige.miller,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Success,,Engineering,United States,1000809
+2026-11-20T09:49:38-06:00,4624,peyton.ross,10.24.10.101,NS-WS01,2,Kerberos,NS-WS01,Success,,Finance,United States,1000810
+2026-11-20T09:59:20-06:00,4624,oliver.lee,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Success,,Engineering,United States,1000811
+2026-11-20T10:26:25-06:00,4624,drew.parker,10.24.10.104,NS-WS04,2,Kerberos,NS-WS04,Success,,IT,United States,1000812
+2026-11-20T10:26:57-06:00,4624,jamie.green,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Success,,HR,United States,1000813
+2026-11-20T10:27:33-06:00,4624,finley.evans,10.24.10.110,NS-WS10,2,Kerberos,NS-WS10,Success,,HR,United States,1000814
+2026-11-20T10:28:34-06:00,4624,elena.carter,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Success,,Sales,United States,1000815
+2026-11-20T10:37:39-06:00,4624,reese.nash,10.24.10.104,NS-WS04,2,Kerberos,NS-WS04,Success,,Engineering,United States,1000816
+2026-11-20T10:45:45-06:00,4624,blair.chen,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Success,,IT,United States,1000817
+2026-11-20T10:59:33-06:00,4624,cameron.baker,10.24.10.107,NS-WS07,2,Kerberos,NS-WS07,Success,,HR,United States,1000818
+2026-11-20T11:00:34-06:00,4648,alex.morgan,10.24.10.101,NS-WS01,3,NTLM,NS-WS01,Explicit credentials attempted,,IT,United States,1000819
+2026-11-20T11:00:36-06:00,4624,alex.morgan,10.24.10.101,NS-FS01,3,NTLM,NS-WS01,Success,,IT,United States,1000820
+2026-11-20T11:00:37-06:00,4672,alex.morgan,10.24.10.101,NS-FS01,3,NTLM,NS-WS01,Special privileges assigned,,IT,United States,1000821
+2026-11-20T11:06:49-06:00,4648,blair.chen,10.24.10.102,NS-WS02,3,NTLM,NS-WS02,Explicit credentials attempted,,IT,United States,1000822
+2026-11-20T11:06:51-06:00,4624,blair.chen,10.24.10.102,NS-FS01,3,NTLM,NS-WS02,Success,,IT,United States,1000823
+2026-11-20T11:06:52-06:00,4672,blair.chen,10.24.10.102,NS-FS01,3,NTLM,NS-WS02,Special privileges assigned,,IT,United States,1000824
+2026-11-20T11:12:21-06:00,4648,casey.patel,10.24.10.103,NS-WS03,3,NTLM,NS-WS03,Explicit credentials attempted,,IT,United States,1000825
+2026-11-20T11:12:23-06:00,4624,casey.patel,10.24.10.103,NS-FS01,3,NTLM,NS-WS03,Success,,IT,United States,1000826
+2026-11-20T11:12:24-06:00,4672,casey.patel,10.24.10.103,NS-FS01,3,NTLM,NS-WS03,Special privileges assigned,,IT,United States,1000827
+2026-11-20T11:12:34-06:00,4634,alex.morgan,10.24.10.101,NS-FS01,3,NTLM,NS-WS01,Logoff,,IT,United States,1000828
+2026-11-20T11:18:04-06:00,4648,drew.parker,10.24.10.104,NS-WS04,3,NTLM,NS-WS04,Explicit credentials attempted,,IT,United States,1000829
+2026-11-20T11:18:06-06:00,4624,drew.parker,10.24.10.104,NS-FS01,3,NTLM,NS-WS04,Success,,IT,United States,1000830
+2026-11-20T11:18:07-06:00,4672,drew.parker,10.24.10.104,NS-FS01,3,NTLM,NS-WS04,Special privileges assigned,,IT,United States,1000831
+2026-11-20T11:18:49-06:00,4634,blair.chen,10.24.10.102,NS-FS01,3,NTLM,NS-WS02,Logoff,,IT,United States,1000832
+2026-11-20T11:24:19-06:00,4648,ellis.rivera,10.24.10.105,NS-WS05,3,NTLM,NS-WS05,Explicit credentials attempted,,IT,United States,1000833
+2026-11-20T11:24:21-06:00,4634,casey.patel,10.24.10.103,NS-FS01,3,NTLM,NS-WS03,Logoff,,IT,United States,1000834
+2026-11-20T11:24:21-06:00,4624,ellis.rivera,10.24.10.105,NS-FS01,3,NTLM,NS-WS05,Success,,IT,United States,1000835
+2026-11-20T11:24:22-06:00,4672,ellis.rivera,10.24.10.105,NS-FS01,3,NTLM,NS-WS05,Special privileges assigned,,IT,United States,1000836
+2026-11-20T11:30:04-06:00,4634,drew.parker,10.24.10.104,NS-FS01,3,NTLM,NS-WS04,Logoff,,IT,United States,1000837
+2026-11-20T11:36:19-06:00,4634,ellis.rivera,10.24.10.105,NS-FS01,3,NTLM,NS-WS05,Logoff,,IT,United States,1000838
+2026-11-20T13:00:36-06:00,4624,svc_report,10.24.20.12,NS-DC02,3,Kerberos,NS-SQL01,Success,,IT,United States,1000839
+2026-11-20T13:07:14-06:00,4624,svc_deploy,10.24.20.13,NS-DC02,3,Kerberos,NS-APP01,Success,,IT,United States,1000840
+2026-11-20T13:07:45-06:00,4624,svc_monitor,10.24.20.13,NS-DC01,3,Kerberos,NS-APP01,Success,,IT,United States,1000841
+2026-11-20T13:08:14-06:00,4624,svc_sql,10.24.20.12,NS-DC01,3,Kerberos,NS-SQL01,Success,,IT,United States,1000842
+2026-11-20T13:10:36-06:00,4634,svc_report,10.24.20.12,NS-DC02,3,Kerberos,NS-SQL01,Logoff,,IT,United States,1000843
+2026-11-20T13:14:15-06:00,4624,svc_backup,10.24.20.11,NS-DC01,3,Kerberos,NS-FS01,Success,,IT,United States,1000844
+2026-11-20T13:17:14-06:00,4634,svc_deploy,10.24.20.13,NS-DC02,3,Kerberos,NS-APP01,Logoff,,IT,United States,1000845
+2026-11-20T13:17:45-06:00,4634,svc_monitor,10.24.20.13,NS-DC01,3,Kerberos,NS-APP01,Logoff,,IT,United States,1000846
+2026-11-20T13:18:14-06:00,4634,svc_sql,10.24.20.12,NS-DC01,3,Kerberos,NS-SQL01,Logoff,,IT,United States,1000847
+2026-11-20T13:24:15-06:00,4634,svc_backup,10.24.20.11,NS-DC01,3,Kerberos,NS-FS01,Logoff,,IT,United States,1000848
+2026-11-20T13:45:04-06:00,4634,ellis.rivera,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Logoff,,IT,United States,1000849
+2026-11-20T14:08:14-06:00,4625,oakley.ward,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,United States,1000850
+2026-11-20T14:08:39-06:00,4624,oakley.ward,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Success,,Finance,United States,1000851
+2026-11-20T14:18:50-06:00,4625,taylor.wong,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),Finance,United States,1000852
+2026-11-20T14:19:15-06:00,4624,taylor.wong,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Success,,Finance,United States,1000853
+2026-11-20T14:22:36-06:00,4634,harper.kim,10.24.10.108,NS-WS08,2,Kerberos,NS-WS08,Logoff,,IT,United States,1000854
+2026-11-20T14:22:52-06:00,4634,ben.young,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Logoff,,Sales,United States,1000855
+2026-11-20T14:26:49-06:00,4634,frankie.reed,10.24.10.106,NS-WS06,2,Kerberos,NS-WS06,Logoff,,IT,United States,1000856
+2026-11-20T14:28:47-06:00,4625,finley.evans,10.24.10.110,NS-WS10,2,Kerberos,NS-WS10,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),HR,United States,1000857
+2026-11-20T14:29:12-06:00,4624,finley.evans,10.24.10.110,NS-WS10,2,Kerberos,NS-WS10,Success,,HR,United States,1000858
+2026-11-20T14:38:52-06:00,4625,marley.james,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Failure,Unknown user name or bad password (0xC000006D/0xC000006A),HR,United States,1000859
+2026-11-20T14:39:17-06:00,4624,marley.james,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Success,,HR,United States,1000860
+2026-11-20T14:41:18-06:00,4634,leah.jackson,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Logoff,,Sales,United States,1000861
+2026-11-20T14:43:14-06:00,4634,oakley.ward,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Logoff,,Finance,United States,1000862
+2026-11-20T14:44:36-06:00,4634,aria.walker,10.24.10.110,NS-WS10,2,Kerberos,NS-WS10,Logoff,,Engineering,United States,1000863
+2026-11-20T14:53:50-06:00,4634,taylor.wong,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Logoff,,Finance,United States,1000864
+2026-11-20T14:58:08-06:00,4634,logan.price,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Logoff,,Finance,United States,1000865
+2026-11-20T15:03:47-06:00,4634,finley.evans,10.24.10.110,NS-WS10,2,Kerberos,NS-WS10,Logoff,,HR,United States,1000866
+2026-11-20T15:06:10-06:00,4634,dakota.clark,10.24.10.108,NS-WS08,2,Kerberos,NS-WS08,Logoff,,HR,United States,1000867
+2026-11-20T15:11:32-06:00,4634,nolan.kelly,10.24.10.101,NS-WS01,2,Kerberos,NS-WS01,Logoff,,Engineering,United States,1000868
+2026-11-20T15:13:52-06:00,4634,marley.james,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Logoff,,HR,United States,1000869
+2026-11-20T15:17:12-06:00,4634,winter.scott,10.24.10.108,NS-WS08,2,Kerberos,NS-WS08,Logoff,,Engineering,United States,1000870
+2026-11-20T15:17:31-06:00,4634,teagan.perry,10.24.10.106,NS-WS06,2,Kerberos,NS-WS06,Logoff,,Engineering,United States,1000871
+2026-11-20T15:21:00-06:00,4624,reese.nash,198.51.100.113,NS-APP01,10,NTLM,NS-WS04,Success,,Engineering,United States,1000872
+2026-11-20T15:21:40-06:00,4624,reese.nash,198.51.100.113,NS-FS01,3,NTLM,NS-WS04,Success,,Engineering,United States,1000873
+2026-11-20T15:21:50-06:00,4634,alex.morgan,198.51.100.20,NS-WS01,10,Kerberos,NS-WS01,Logoff,,IT,United States,1000874
+2026-11-20T15:25:00-06:00,4634,reese.nash,198.51.100.113,NS-FS01,3,NTLM,NS-WS04,Logoff,,Engineering,United States,1000875
+2026-11-20T15:27:00-06:00,4634,reese.nash,198.51.100.113,NS-APP01,10,NTLM,NS-WS04,Logoff,,Engineering,United States,1000876
+2026-11-20T15:28:03-06:00,4634,emerson.davis,10.24.10.109,NS-WS09,2,Kerberos,NS-WS09,Logoff,,HR,United States,1000877
+2026-11-20T15:31:35-06:00,4634,kendall.hill,198.51.100.47,NS-WS13,10,Kerberos,NS-WS13,Logoff,,HR,United States,1000878
+2026-11-20T15:32:34-06:00,4634,indigo.shah,10.24.10.109,NS-WS09,2,Kerberos,NS-WS09,Logoff,,IT,United States,1000879
+2026-11-20T15:34:06-06:00,4634,avery.adams,10.24.10.106,NS-WS06,2,Kerberos,NS-WS06,Logoff,,HR,United States,1000880
+2026-11-20T15:38:00-06:00,4624,reese.nash,192.0.2.211,NS-APP01,10,NTLM,NS-WS04,Success,,Engineering,Romania,1000881
+2026-11-20T15:38:40-06:00,4624,reese.nash,192.0.2.211,NS-FS01,3,NTLM,NS-WS04,Success,,Engineering,Romania,1000882
+2026-11-20T15:38:52-06:00,4634,kai.nguyen,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Logoff,,Finance,United States,1000883
+2026-11-20T15:40:41-06:00,4634,hayden.flores,10.24.10.111,NS-WS11,2,Kerberos,NS-WS11,Logoff,,HR,United States,1000884
+2026-11-20T15:42:00-06:00,4634,reese.nash,192.0.2.211,NS-FS01,3,NTLM,NS-WS04,Logoff,,Engineering,Romania,1000885
+2026-11-20T15:44:00-06:00,4634,reese.nash,192.0.2.211,NS-APP01,10,NTLM,NS-WS04,Logoff,,Engineering,Romania,1000886
+2026-11-20T15:44:27-06:00,4634,felix.diaz,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Logoff,,Sales,United States,1000887
+2026-11-20T15:53:09-06:00,4634,skyler.owens,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Logoff,,Engineering,United States,1000888
+2026-11-20T15:54:22-06:00,4634,jude.hall,10.24.10.104,NS-WS04,2,Kerberos,NS-WS04,Logoff,,Sales,United States,1000889
+2026-11-20T15:56:35-06:00,4634,quinn.bell,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Logoff,,Finance,United States,1000890
+2026-11-20T15:57:35-06:00,4634,morgan.hayes,10.24.10.113,NS-WS13,2,Kerberos,NS-WS13,Logoff,,Finance,United States,1000891
+2026-11-20T15:57:42-06:00,4634,grace.edwards,198.51.100.65,NS-WS01,10,Kerberos,NS-WS01,Logoff,,Sales,United States,1000892
+2026-11-20T16:04:38-06:00,4634,peyton.ross,10.24.10.101,NS-WS01,2,Kerberos,NS-WS01,Logoff,,Finance,United States,1000893
+2026-11-20T16:06:02-06:00,4634,gray.taylor,10.24.10.107,NS-WS07,2,Kerberos,NS-WS07,Logoff,,IT,United States,1000894
+2026-11-20T16:07:53-06:00,4634,taylor.wong,10.24.10.105,NS-WS05,2,Kerberos,NS-WS05,Logoff,,Finance,United States,1000895
+2026-11-20T16:13:02-06:00,4634,sage.foster,198.51.100.38,NS-WS04,10,Kerberos,NS-WS04,Logoff,,Finance,United States,1000896
+2026-11-20T16:26:00-06:00,4634,marley.james,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Logoff,,HR,United States,1000897
+2026-11-20T16:28:34-06:00,4634,elena.carter,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Logoff,,Sales,United States,1000898
+2026-11-20T16:30:00-06:00,4634,noel.cruz,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Logoff,,Finance,United States,1000899
+2026-11-20T16:33:51-06:00,4634,lane.ivanov,10.24.10.114,NS-WS14,2,Kerberos,NS-WS14,Logoff,,HR,United States,1000900
+2026-11-20T16:35:23-06:00,4634,riley.cole,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Logoff,,Finance,United States,1000901
+2026-11-20T16:36:31-06:00,4634,chloe.allen,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Logoff,,Sales,United States,1000902
+2026-11-20T16:57:44-06:00,4634,iris.garcia,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Logoff,,Sales,United States,1000903
+2026-11-20T17:01:04-06:00,4634,devon.brown,10.24.10.113,NS-WS13,2,Kerberos,NS-WS13,Logoff,,Sales,United States,1000904
+2026-11-20T17:12:56-06:00,4634,hugo.ford,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Logoff,,Sales,United States,1000905
+2026-11-20T17:18:28-06:00,4634,zion.turner,10.24.10.109,NS-WS09,2,Kerberos,NS-WS09,Logoff,,Engineering,United States,1000906
+2026-11-20T17:23:03-06:00,4634,val.roberts,198.51.100.56,NS-WS07,10,Kerberos,NS-WS07,Logoff,,Engineering,United States,1000907
+2026-11-20T17:38:19-06:00,4634,jordan.brooks,198.51.100.29,NS-WS10,10,Kerberos,NS-WS10,Logoff,,IT,United States,1000908
+2026-11-20T17:38:37-06:00,4634,oakley.ward,10.24.10.115,NS-WS15,2,Kerberos,NS-WS15,Logoff,,Finance,United States,1000909
+2026-11-20T18:06:38-06:00,4634,casey.patel,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Logoff,,IT,United States,1000910
+2026-11-20T18:21:33-06:00,4634,cameron.baker,10.24.10.107,NS-WS07,2,Kerberos,NS-WS07,Logoff,,HR,United States,1000911
+2026-11-20T18:23:20-06:00,4634,oliver.lee,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Logoff,,Engineering,United States,1000912
+2026-11-20T18:25:08-06:00,4634,paige.miller,10.24.10.103,NS-WS03,2,Kerberos,NS-WS03,Logoff,,Engineering,United States,1000913
+2026-11-20T18:37:39-06:00,4634,reese.nash,10.24.10.104,NS-WS04,2,Kerberos,NS-WS04,Logoff,,Engineering,United States,1000914
+2026-11-20T18:39:33-06:00,4634,finley.evans,10.24.10.110,NS-WS10,2,Kerberos,NS-WS10,Logoff,,HR,United States,1000915
+2026-11-20T18:57:57-06:00,4634,jamie.green,10.24.10.112,NS-WS12,2,Kerberos,NS-WS12,Logoff,,HR,United States,1000916
+2026-11-20T19:02:25-06:00,4634,drew.parker,10.24.10.104,NS-WS04,2,Kerberos,NS-WS04,Logoff,,IT,United States,1000917
+2026-11-20T19:10:45-06:00,4634,blair.chen,10.24.10.102,NS-WS02,2,Kerberos,NS-WS02,Logoff,,IT,United States,1000918
+2026-11-20T21:14:00-06:00,4624,felix.diaz,192.0.2.34,NS-WS15,10,Kerberos,NS-WS15,Success,,Sales,United States,1000919
+2026-11-20T22:04:00-06:00,4634,felix.diaz,192.0.2.34,NS-WS15,10,Kerberos,NS-WS15,Logoff,,Sales,United States,1000920
+2026-11-21T01:00:51-06:00,4624,svc_report,10.24.20.12,NS-DC02,3,Kerberos,NS-SQL01,Success,,IT,United States,1000921
+2026-11-21T01:01:22-06:00,4624,svc_sql,10.24.20.12,NS-DC01,3,Kerberos,NS-SQL01,Success,,IT,United States,1000922
+2026-11-21T01:04:23-06:00,4624,svc_monitor,10.24.20.13,NS-DC01,3,Kerberos,NS-APP01,Success,,IT,United States,1000923
+2026-11-21T01:05:19-06:00,4624,svc_deploy,10.24.20.13,NS-DC02,3,Kerberos,NS-APP01,Success,,IT,United States,1000924
+2026-11-21T01:10:05-06:00,4624,svc_backup,10.24.20.11,NS-DC01,3,Kerberos,NS-FS01,Success,,IT,United States,1000925
+2026-11-21T01:10:51-06:00,4634,svc_report,10.24.20.12,NS-DC02,3,Kerberos,NS-SQL01,Logoff,,IT,United States,1000926
+2026-11-21T01:11:22-06:00,4634,svc_sql,10.24.20.12,NS-DC01,3,Kerberos,NS-SQL01,Logoff,,IT,United States,1000927
+2026-11-21T01:14:23-06:00,4634,svc_monitor,10.24.20.13,NS-DC01,3,Kerberos,NS-APP01,Logoff,,IT,United States,1000928
+2026-11-21T01:15:19-06:00,4634,svc_deploy,10.24.20.13,NS-DC02,3,Kerberos,NS-APP01,Logoff,,IT,United States,1000929
+2026-11-21T01:20:05-06:00,4634,svc_backup,10.24.20.11,NS-DC01,3,Kerberos,NS-FS01,Logoff,,IT,United States,1000930
+2026-11-21T13:03:24-06:00,4624,svc_sql,10.24.20.12,NS-DC01,3,Kerberos,NS-SQL01,Success,,IT,United States,1000931
+2026-11-21T13:04:04-06:00,4624,svc_report,10.24.20.12,NS-DC02,3,Kerberos,NS-SQL01,Success,,IT,United States,1000932
+2026-11-21T13:08:33-06:00,4624,svc_backup,10.24.20.11,NS-DC01,3,Kerberos,NS-FS01,Success,,IT,United States,1000933
+2026-11-21T13:09:44-06:00,4624,svc_monitor,10.24.20.13,NS-DC01,3,Kerberos,NS-APP01,Success,,IT,United States,1000934
+2026-11-21T13:12:12-06:00,4624,svc_deploy,10.24.20.13,NS-DC02,3,Kerberos,NS-APP01,Success,,IT,United States,1000935
+2026-11-21T13:13:24-06:00,4634,svc_sql,10.24.20.12,NS-DC01,3,Kerberos,NS-SQL01,Logoff,,IT,United States,1000936
+2026-11-21T13:14:04-06:00,4634,svc_report,10.24.20.12,NS-DC02,3,Kerberos,NS-SQL01,Logoff,,IT,United States,1000937
+2026-11-21T13:18:33-06:00,4634,svc_backup,10.24.20.11,NS-DC01,3,Kerberos,NS-FS01,Logoff,,IT,United States,1000938
+2026-11-21T13:19:44-06:00,4634,svc_monitor,10.24.20.13,NS-DC01,3,Kerberos,NS-APP01,Logoff,,IT,United States,1000939
+2026-11-21T13:22:12-06:00,4634,svc_deploy,10.24.20.13,NS-DC02,3,Kerberos,NS-APP01,Logoff,,IT,United States,1000940
+2026-11-21T20:00:23-06:00,4648,alex.morgan,10.24.10.101,NS-WS01,3,NTLM,NS-WS01,Explicit credentials attempted,,IT,United States,1000941
+2026-11-21T20:00:25-06:00,4624,alex.morgan,10.24.10.101,NS-FS01,3,NTLM,NS-WS01,Success,,IT,United States,1000942
+2026-11-21T20:00:26-06:00,4672,alex.morgan,10.24.10.101,NS-FS01,3,NTLM,NS-WS01,Special privileges assigned,,IT,United States,1000943
+2026-11-21T20:06:45-06:00,4648,blair.chen,10.24.10.102,NS-WS02,3,NTLM,NS-WS02,Explicit credentials attempted,,IT,United States,1000944
+2026-11-21T20:06:47-06:00,4624,blair.chen,10.24.10.102,NS-FS01,3,NTLM,NS-WS02,Success,,IT,United States,1000945
+2026-11-21T20:06:48-06:00,4672,blair.chen,10.24.10.102,NS-FS01,3,NTLM,NS-WS02,Special privileges assigned,,IT,United States,1000946
+2026-11-21T20:12:17-06:00,4648,casey.patel,10.24.10.103,NS-WS03,3,NTLM,NS-WS03,Explicit credentials attempted,,IT,United States,1000947
+2026-11-21T20:12:19-06:00,4624,casey.patel,10.24.10.103,NS-FS01,3,NTLM,NS-WS03,Success,,IT,United States,1000948
+2026-11-21T20:12:20-06:00,4672,casey.patel,10.24.10.103,NS-FS01,3,NTLM,NS-WS03,Special privileges assigned,,IT,United States,1000949
+2026-11-21T20:12:23-06:00,4634,alex.morgan,10.24.10.101,NS-FS01,3,NTLM,NS-WS01,Logoff,,IT,United States,1000950
+2026-11-21T20:18:34-06:00,4648,drew.parker,10.24.10.104,NS-WS04,3,NTLM,NS-WS04,Explicit credentials attempted,,IT,United States,1000951
+2026-11-21T20:18:36-06:00,4624,drew.parker,10.24.10.104,NS-FS01,3,NTLM,NS-WS04,Success,,IT,United States,1000952
+2026-11-21T20:18:37-06:00,4672,drew.parker,10.24.10.104,NS-FS01,3,NTLM,NS-WS04,Special privileges assigned,,IT,United States,1000953
+2026-11-21T20:18:45-06:00,4634,blair.chen,10.24.10.102,NS-FS01,3,NTLM,NS-WS02,Logoff,,IT,United States,1000954
+2026-11-21T20:24:13-06:00,4648,ellis.rivera,10.24.10.105,NS-WS05,3,NTLM,NS-WS05,Explicit credentials attempted,,IT,United States,1000955
+2026-11-21T20:24:15-06:00,4624,ellis.rivera,10.24.10.105,NS-FS01,3,NTLM,NS-WS05,Success,,IT,United States,1000956
+2026-11-21T20:24:16-06:00,4672,ellis.rivera,10.24.10.105,NS-FS01,3,NTLM,NS-WS05,Special privileges assigned,,IT,United States,1000957
+2026-11-21T20:24:17-06:00,4634,casey.patel,10.24.10.103,NS-FS01,3,NTLM,NS-WS03,Logoff,,IT,United States,1000958
+2026-11-21T20:30:34-06:00,4634,drew.parker,10.24.10.104,NS-FS01,3,NTLM,NS-WS04,Logoff,,IT,United States,1000959
+2026-11-21T20:36:13-06:00,4634,ellis.rivera,10.24.10.105,NS-FS01,3,NTLM,NS-WS05,Logoff,,IT,United States,1000960
+2026-11-22T01:01:19-06:00,4624,svc_report,10.24.20.12,NS-DC02,3,Kerberos,NS-SQL01,Success,,IT,United States,1000961
+2026-11-22T01:08:09-06:00,4624,svc_monitor,10.24.20.13,NS-DC01,3,Kerberos,NS-APP01,Success,,IT,United States,1000962
+2026-11-22T01:10:33-06:00,4624,svc_sql,10.24.20.12,NS-DC01,3,Kerberos,NS-SQL01,Success,,IT,United States,1000963
+2026-11-22T01:11:19-06:00,4634,svc_report,10.24.20.12,NS-DC02,3,Kerberos,NS-SQL01,Logoff,,IT,United States,1000964
+2026-11-22T01:13:16-06:00,4624,svc_deploy,10.24.20.13,NS-DC02,3,Kerberos,NS-APP01,Success,,IT,United States,1000965
+2026-11-22T01:13:27-06:00,4624,svc_backup,10.24.20.11,NS-DC01,3,Kerberos,NS-FS01,Success,,IT,United States,1000966
+2026-11-22T01:18:09-06:00,4634,svc_monitor,10.24.20.13,NS-DC01,3,Kerberos,NS-APP01,Logoff,,IT,United States,1000967
+2026-11-22T01:20:33-06:00,4634,svc_sql,10.24.20.12,NS-DC01,3,Kerberos,NS-SQL01,Logoff,,IT,United States,1000968
+2026-11-22T01:23:16-06:00,4634,svc_deploy,10.24.20.13,NS-DC02,3,Kerberos,NS-APP01,Logoff,,IT,United States,1000969
+2026-11-22T01:23:27-06:00,4634,svc_backup,10.24.20.11,NS-DC01,3,Kerberos,NS-FS01,Logoff,,IT,United States,1000970
+2026-11-22T13:00:31-06:00,4624,svc_deploy,10.24.20.13,NS-DC02,3,Kerberos,NS-APP01,Success,,IT,United States,1000971
+2026-11-22T13:07:55-06:00,4624,svc_report,10.24.20.12,NS-DC02,3,Kerberos,NS-SQL01,Success,,IT,United States,1000972
+2026-11-22T13:10:31-06:00,4634,svc_deploy,10.24.20.13,NS-DC02,3,Kerberos,NS-APP01,Logoff,,IT,United States,1000973
+2026-11-22T13:12:23-06:00,4624,svc_sql,10.24.20.12,NS-DC01,3,Kerberos,NS-SQL01,Success,,IT,United States,1000974
+2026-11-22T13:13:29-06:00,4624,svc_monitor,10.24.20.13,NS-DC01,3,Kerberos,NS-APP01,Success,,IT,United States,1000975
+2026-11-22T13:14:58-06:00,4624,svc_backup,10.24.20.11,NS-DC01,3,Kerberos,NS-FS01,Success,,IT,United States,1000976
+2026-11-22T13:17:55-06:00,4634,svc_report,10.24.20.12,NS-DC02,3,Kerberos,NS-SQL01,Logoff,,IT,United States,1000977
+2026-11-22T13:22:23-06:00,4634,svc_sql,10.24.20.12,NS-DC01,3,Kerberos,NS-SQL01,Logoff,,IT,United States,1000978
+2026-11-22T13:23:29-06:00,4634,svc_monitor,10.24.20.13,NS-DC01,3,Kerberos,NS-APP01,Logoff,,IT,United States,1000979
+2026-11-22T13:24:58-06:00,4634,svc_backup,10.24.20.11,NS-DC01,3,Kerberos,NS-FS01,Logoff,,IT,United States,1000980
+2026-11-22T20:00:41-06:00,4648,alex.morgan,10.24.10.101,NS-WS01,3,NTLM,NS-WS01,Explicit credentials attempted,,IT,United States,1000981
+2026-11-22T20:00:43-06:00,4624,alex.morgan,10.24.10.101,NS-FS01,3,NTLM,NS-WS01,Success,,IT,United States,1000982
+2026-11-22T20:00:44-06:00,4672,alex.morgan,10.24.10.101,NS-FS01,3,NTLM,NS-WS01,Special privileges assigned,,IT,United States,1000983
+2026-11-22T20:06:39-06:00,4648,blair.chen,10.24.10.102,NS-WS02,3,NTLM,NS-WS02,Explicit credentials attempted,,IT,United States,1000984
+2026-11-22T20:06:41-06:00,4624,blair.chen,10.24.10.102,NS-FS01,3,NTLM,NS-WS02,Success,,IT,United States,1000985
+2026-11-22T20:06:42-06:00,4672,blair.chen,10.24.10.102,NS-FS01,3,NTLM,NS-WS02,Special privileges assigned,,IT,United States,1000986
+2026-11-22T20:12:13-06:00,4648,casey.patel,10.24.10.103,NS-WS03,3,NTLM,NS-WS03,Explicit credentials attempted,,IT,United States,1000987
+2026-11-22T20:12:15-06:00,4624,casey.patel,10.24.10.103,NS-FS01,3,NTLM,NS-WS03,Success,,IT,United States,1000988
+2026-11-22T20:12:16-06:00,4672,casey.patel,10.24.10.103,NS-FS01,3,NTLM,NS-WS03,Special privileges assigned,,IT,United States,1000989
+2026-11-22T20:12:41-06:00,4634,alex.morgan,10.24.10.101,NS-FS01,3,NTLM,NS-WS01,Logoff,,IT,United States,1000990
+2026-11-22T20:18:30-06:00,4648,drew.parker,10.24.10.104,NS-WS04,3,NTLM,NS-WS04,Explicit credentials attempted,,IT,United States,1000991
+2026-11-22T20:18:32-06:00,4624,drew.parker,10.24.10.104,NS-FS01,3,NTLM,NS-WS04,Success,,IT,United States,1000992
+2026-11-22T20:18:33-06:00,4672,drew.parker,10.24.10.104,NS-FS01,3,NTLM,NS-WS04,Special privileges assigned,,IT,United States,1000993
+2026-11-22T20:18:39-06:00,4634,blair.chen,10.24.10.102,NS-FS01,3,NTLM,NS-WS02,Logoff,,IT,United States,1000994
+2026-11-22T20:24:13-06:00,4634,casey.patel,10.24.10.103,NS-FS01,3,NTLM,NS-WS03,Logoff,,IT,United States,1000995
+2026-11-22T20:24:21-06:00,4648,ellis.rivera,10.24.10.105,NS-WS05,3,NTLM,NS-WS05,Explicit credentials attempted,,IT,United States,1000996
+2026-11-22T20:24:23-06:00,4624,ellis.rivera,10.24.10.105,NS-FS01,3,NTLM,NS-WS05,Success,,IT,United States,1000997
+2026-11-22T20:24:24-06:00,4672,ellis.rivera,10.24.10.105,NS-FS01,3,NTLM,NS-WS05,Special privileges assigned,,IT,United States,1000998
+2026-11-22T20:30:30-06:00,4634,drew.parker,10.24.10.104,NS-FS01,3,NTLM,NS-WS04,Logoff,,IT,United States,1000999
+2026-11-22T20:36:21-06:00,4634,ellis.rivera,10.24.10.105,NS-FS01,3,NTLM,NS-WS05,Logoff,,IT,United States,1001000

@@ -1,0 +1,5 @@
+index=soc_lab sourcetype="soc:windows:auth:csv" (EventCode=4624 OR EventCode=4625 OR EventCode=4672)
+| stats count(eval(EventCode=4625)) AS failures count(eval(EventCode=4624)) AS successes count(eval(EventCode=4672)) AS privileged_sessions dc(Source_Country) AS countries dc(Source_Network_Address) AS source_count by Account_Name
+| where (failures>=5 AND successes>0) OR countries>1 OR privileged_sessions>0
+| sort - failures
+| eval interpretation="Triage lead; correlation and baseline review required"

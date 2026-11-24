@@ -1,0 +1,3 @@
+index=soc_lab sourcetype="soc:windows:auth:csv" EventCode=4624
+| stats count AS successes values(Logon_Type) AS logon_types by Account_Name ComputerName
+| sort - successes
