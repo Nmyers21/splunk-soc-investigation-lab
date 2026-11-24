@@ -1,6 +1,0 @@
-index=soc_lab sourcetype="soc:windows:auth:csv" EventCode=4624
-| sort 0 _time EventRecordID
-| streamstats current=f last(Source_Country) AS previous_country last(_time) AS previous_time by Account_Name
-| eval elapsed_seconds=_time-previous_time
-| where isnotnull(previous_country) AND Source_Country!=previous_country AND elapsed_seconds>=0 AND elapsed_seconds<=3600
-| table _time Account_Name previous_country Source_Country elapsed_seconds EventRecordID

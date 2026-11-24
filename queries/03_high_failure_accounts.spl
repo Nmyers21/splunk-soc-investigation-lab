@@ -1,5 +1,0 @@
-index=soc_lab sourcetype="soc:windows:auth:csv" EventCode=4625
-| bin _time span=15m
-| stats count AS failures dc(Source_Network_Address) AS source_count by _time Account_Name
-| where failures>=10
-| sort - failures

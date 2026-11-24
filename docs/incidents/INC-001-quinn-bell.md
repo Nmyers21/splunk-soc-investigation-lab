@@ -241,7 +241,7 @@ The analyst proposed correlating 4625 failures with a later 4624 success using i
 
 **Proposed test conditions:** at least ten failures within a rolling five-minute observation window, followed by a success within five minutes of the final failure. These are two separate timing conditions, not an undifferentiated ten-minute count. Require the failures to precede the success. The rule should not hardcode this case's account or source.
 
-These settings are a hypothesis to test, **not an implemented or validated revision**. Existing project detection files use their own documented settings; this report does not change them. The saved password-spraying alert configuration concerns a different detection and does not demonstrate execution or triggering of this proposed failure-to-success rule.
+These settings are a hypothesis to test, **not an implemented or validated rule**. The current repository documents the manual Splunk investigation; a reusable detection-code implementation is outside its scope. The saved password-spraying alert configuration concerns a different detection and does not demonstrate execution or triggering of this proposed failure-to-success rule.
 
 Recommended validation and tuning:
 
@@ -257,7 +257,7 @@ The analyst described improved understanding of authentication analysis, event c
 
 The analyst's demonstrated work includes running authentication searches, identifying the source-specific failure pattern, comparing earlier behavior, reviewing the successful logon and subsequent account records, and capturing supporting screenshots. Generated project scaffolding and writing assistance should be disclosed when discussing authorship.
 
-For future investigations, the analyst would establish behavioral baselines earlier, incorporate additional telemetry and evaluate rolling-window failure-to-success detection. Python automation is a proposed learning direction for repetitive investigation work, with human oversight retained. The project contains Python tools, but their existence does not establish that the analyst used or independently implemented them for this case.
+For future investigations, the analyst would establish behavioral baselines earlier, incorporate additional telemetry and evaluate rolling-window failure-to-success detection. Python automation is a proposed learning direction for repetitive investigation work, with human oversight retained. It was not used to conduct this investigation and is outside the current repository scope.
 
 ## Outstanding documentation and capture tasks
 

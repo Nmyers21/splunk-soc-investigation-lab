@@ -1,73 +1,60 @@
-# Splunk SOC authentication investigation lab
+# Splunk SOC authentication investigation
 
-A simulated SOC training project for learning authentication investigation, detection engineering and Python security automation. This is **not production security operations experience**. The analyst performs the investigation; the project supplies reusable queries, candidate rules, offline tools and blank documentation.
+A hands-on investigation of synthetic Windows authentication activity using **Splunk Enterprise**, documented with screenshots and an incident response report. This is a simulated training project, not production security operations experience.
 
-## Current status
-- Original 1,000-event dataset and instructor materials preserved without regeneration.
-- Twelve SPL investigations and five detection candidates authored, each with explanatory notes.
-- Standard-library Python CSV/JSON triage and optional GET-only Splunk results integration implemented.
-- Python tests use independent fictional fixtures and mocked HTTP responses.
-- Saved screenshots document manually executed authentication investigations. Library SPL files and scheduled-rule behavior still require individual runtime validation; Sentinel examples and live API access remain unvalidated.
-- [INC-001](docs/incidents/INC-001-quinn-bell.md) documents the analyst-led investigation, supported by ten saved screenshots across the project. Read the case report only after your own blind investigation. No containment or remediation is claimed.
+## Completed work
 
-## Technologies and environment
-Splunk Enterprise, SPL, Python 3.9+, CSV, JSON, HTTPS REST and unittest. Sentinel/KQL and Defender XDR concepts are documented for transfer; those platforms are not deployed or connected here.
+- Analyzed failed authentication counts by account and source address.
+- Correlated failed and successful logons using identity, source, destination, timestamps and logon type.
+- Compared suspicious activity against earlier account behavior and reviewed subsequent authentication records.
+- Investigated source activity across multiple accounts and tested a fifteen-minute aggregation query.
+- Captured a password-spraying alert configuration. The screenshot documents configuration, not proof that a scheduled alert ran or triggered.
+- Developed an incident report explaining findings, uncertainty, severity, alternative explanations and recommended response actions.
 
-NorthSound Components is a fictional Texas enterprise. The sample spans November 16–22, 2026 (UTC−06:00): 50 employees across IT, Finance, HR, Engineering and Sales; five service identities; fifteen Windows endpoints, three servers and two domain controllers. Internal systems use private IPs; all simulated external addresses use documentation ranges. Both benign and suspicious behavior exist; reserved ranges and unusual hours alone do not establish intent.
+## Incident write-up
 
-The thirteen-field normalized schema includes timestamp, EventCode, identity, source address, emitting host, logon type, authentication package, workstation, status, failure reason, department, synthetic country and a lab-unique EventRecordID. This is sampled teaching data, not raw Windows XML or a full audit trail. Source context on related events is enriched; no session identifiers or corroborating process telemetry are included.
+Read [INC-001: Suspected account compromise involving quinn.bell](docs/incidents/INC-001-quinn-bell.md).
 
-## Layout
+The report includes the investigation timeline, searches actually shown in the evidence, six embedded screenshots, confidence assessment and recommended containment/remediation. Authentication success is established in the simulated records; unauthorized access remains unconfirmed. No containment or remediation is claimed as performed.
+
+The write-up is based on the analyst's investigation and answers, with writing assistance for organization and accuracy. Proposed improvements are separated from completed work.
+
+## Evidence
+
+All ten saved captures are available in [screenshots](screenshots/README.md). They cover account/source failure counts, authentication timelines, subsequent activity, account breadth and alert configuration. The SPL reproduced in screenshots and the incident report documents the searches used in Splunk.
+
+## Dataset and environment
+
+The provided `soc_authentication_logs.csv` contains 1,000 synthetic events spanning November 16–22, 2026, Central Standard Time (UTC−06:00). The fictional enterprise includes 50 employee accounts, five service accounts, fifteen Windows endpoints, three servers and two domain controllers.
+
+The thirteen fields capture timestamp, event code, identity, source address, emitting host, logon type, authentication package, workstation, status, failure reason, department, synthetic country and lab-unique event ID. Private addresses represent internal systems; documentation addresses represent simulated external sources. The sample is a normalized teaching extract, not complete Windows auditing or endpoint telemetry.
+
+## Reproduce the manual investigation
+
+1. Follow [Splunk setup](docs/SPLUNK_SETUP.md). If the CSV is already imported, reuse the existing import rather than ingesting it twice.
+2. The saved investigation uses `index=main sourcetype="Soc_Authentication_csv"`. Substitute your actual selectors if different.
+3. Select All time or the fixed historical period and confirm timestamp parsing and field extraction.
+4. Run the evidence-backed searches in the incident report and compare your findings with the screenshots.
+5. Use [the investigation checklist](docs/INVESTIGATION_CHECKLIST.md) to document alternative explanations, missing information and confidence.
+
+Reading the report reveals this case's findings. For a blind exercise, investigate the CSV before opening the write-up or screenshots.
+
+## Repository contents
+
 | Path | Purpose |
 | --- | --- |
-| soc_authentication_logs.csv | Original canonical dataset; path preserved for existing imports |
-| data/ | Independent example fixture and private optional exports |
-| queries/ | Twelve .spl files with matching explanations |
-| detections/ | Five candidate .spl rules and rule documentation |
-| scripts/ | Offline analyzer and optional REST results reader |
-| tests/ | Unit tests using unrelated events and mocked HTTP |
-| reports/ | Blank report template; private findings stay ignored |
-| screenshots/ | Your manually captured validation screenshots |
-| docs/ | Original setup, automation walkthrough, checklist, alerts and Sentinel transfer |
-| INTERVIEW_PREP.md | 35 study questions and your blank evidence log |
+| `soc_authentication_logs.csv` | Original synthetic authentication dataset |
+| `docs/incidents/INC-001-quinn-bell.md` | Analyst incident report |
+| `docs/SPLUNK_SETUP.md` | Manual import and field/time configuration |
+| `docs/INVESTIGATION_CHECKLIST.md` | Authentication investigation checklist |
+| `screenshots/` | Ten saved Splunk evidence captures |
 
-The original `generate_logs.py` and `instructor_answer_key.json` remain local and are excluded from Git. The generator contains instructor-only construction logic. Keep both closed during your blind investigation. Do not regenerate or move the canonical CSV.
+## Skills demonstrated
 
-## Setup
-1. Use the [Splunk setup guide](docs/SPLUNK_SETUP.md) to create `soc_lab`, configure `soc:windows:auth:csv` and import the CSV **once**. The dataset is already provided; regeneration is unnecessary. Your existing import may use different selectors: the saved evidence uses `index=main sourcetype="Soc_Authentication_csv"`. Adjust library selectors to match the intended import rather than re-uploading solely to change names.
-2. Select All time or the fixed historical window. Verify 1,000 total events, 1,000 distinct identifiers, 55 accounts and 20 emitting hosts. Check `_time` and all field extractions.
-3. Run local unit tests from this folder:
+Manual SIEM investigation, SPL filtering/aggregation, Windows authentication interpretation, chronological evidence correlation, assessment of false positives, distinction between suspicion and confirmed compromise, and incident documentation.
 
-```sh
-python3 -m unittest discover -s tests -v
-```
+Python automation, API integration, reusable code libraries and automated tests are outside the current portfolio scope. Future automation and detection changes described in the report remain recommendations rather than completed work.
 
-No packages need installation. No Python test reads the answer key or investigates the original dataset.
+## Publication status
 
-## Investigation workflow
-Start with [the checklist](docs/INVESTIGATION_CHECKLIST.md), then run basic failure/success inventory queries yourself. Read each query's companion notes before progressing to time correlations, geographic changes, service origin novelty and privileged session context. Use a copy of [the report template](reports/INCIDENT_REPORT_TEMPLATE.md) to document observations, evidence, alternative explanations and recommendations. Save screenshots yourself; no results are asserted in advance.
-
-## Detection engineering
-Each detection documents objective, thresholds, severity, MITRE hypotheses, false positives, tuning, schedule and response. Follow [scheduled alert setup](docs/SCHEDULED_ALERTS.md). The fixed historical dataset requires historical manual testing; live `now()` candidate filters will correctly return no old candidates. Rules are triage hypotheses and require analyst validation before operational use.
-
-## Python automation
-Read [automation usage](docs/AUTOMATION.md) and [the line-by-line walkthrough](docs/PYTHON_WALKTHROUGH.md). Try the unrelated demonstration fixture first:
-
-```sh
-python3 scripts/analyze_auth.py data/example_events.json --output-dir reports/practice
-```
-
-The analyzer validates records, counts failures, correlates time windows, and exports private JSON/CSV candidates. Running it on the blind dataset can disclose leads; defer that until after your manual investigation.
-
-The [REST integration](docs/REST_API.md) reads an already-completed search job using environment credentials and verified HTTPS. It never creates searches, writes Splunk configuration or performs containment. **No requests have been made to your instance; authorize and configure access yourself before running it.**
-
-## Skills practiced and honest evidence
-Query construction, time correlation, authentication semantics, baseline comparison, detection tuning, Python validation/testing, JSON/REST handling and incident documentation. Enrichment and vulnerability prioritization are conceptual extension points, not implemented live integrations. Use [interview preparation](INTERVIEW_PREP.md) to record what you personally executed and understood. Generated scaffolding alone is not evidence of validated detections or completed investigations.
-
-## GitHub preparation
-Reviewed source, documentation, the synthetic CSV, the analyst report and ten explicitly approved screenshots are included in version control. Instructor files, credentials, private exports and future unreviewed screenshots remain excluded. Review `.gitignore` and staged changes before adding new evidence. The case report contains investigation findings; readers can practice blindly by deferring it. The project is hosted in a private [GitHub repository](https://github.com/Nmyers21/splunk-soc-investigation-lab) for review. Publication as a public repository requires a separate visibility change.
-
-## Next hands-on tasks
-1. Verify ingestion and field/time parsing, capture your own screenshot, and record the exact validation search and counts.
-2. Execute the first four investigative queries, explain each pipeline in your own words and record baseline observations without consulting the key.
-3. Select one detection, test its historical form in Splunk, examine benign alternatives and document the evidence and tuning in a fresh report.
+This repository is private for review. Instructor materials, credentials, private exports and unused learning components are excluded from the current tracked files. Existing screenshot names and dataset bytes are preserved.

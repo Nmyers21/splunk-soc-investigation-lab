@@ -1,4 +1,0 @@
-index=soc_lab sourcetype="soc:windows:auth:csv" (EventCode=4624 OR EventCode=4648 OR EventCode=4672)
-| eval local_hour=tonumber(substr(timestamp,12,2)), local_day=strftime(strptime(substr(timestamp,1,10),"%Y-%m-%d"),"%w")
-| where local_hour<8 OR local_hour>=18 OR local_day="0" OR local_day="6"
-| table _time Account_Name ComputerName Workstation_Name EventCode local_hour local_day EventRecordID

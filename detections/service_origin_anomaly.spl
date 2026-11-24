@@ -1,7 +1,0 @@
-index=soc_lab sourcetype="soc:windows:auth:csv" EventCode=4624 Account_Name="svc_*"
-| sort 0 _time EventRecordID
-| streamstats current=f count AS prior_account_events by Account_Name
-| streamstats current=f count AS prior_origin_events by Account_Name Workstation_Name
-| where prior_account_events>=3 AND coalesce(prior_origin_events,0)=0
-| table _time Account_Name Workstation_Name ComputerName prior_account_events EventRecordID
-| where _time>=relative_time(now(),"-1h@h")

@@ -1,5 +1,0 @@
-index=soc_lab sourcetype="soc:windows:auth:csv" (EventCode=4625 OR EventCode=4624)
-| sort 0 _time EventRecordID
-| streamstats time_window=15m count(eval(EventCode=4625)) AS prior_failures last(eval(if(EventCode=4625,_time,null()))) AS last_failure by Account_Name Source_Network_Address ComputerName
-| where EventCode=4624 AND prior_failures>=5 AND last_failure<_time
-| table _time Account_Name Source_Network_Address ComputerName prior_failures last_failure EventRecordID

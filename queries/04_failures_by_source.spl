@@ -1,3 +1,0 @@
-index=soc_lab sourcetype="soc:windows:auth:csv" EventCode=4625
-| stats count AS failures dc(Account_Name) AS accounts values(ComputerName) AS targets by Source_Network_Address
-| sort - failures

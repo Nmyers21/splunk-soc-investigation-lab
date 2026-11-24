@@ -32,3 +32,18 @@ data/*
 !screenshots/08_authentication_outcomes_by_account_for_source.png
 !screenshots/09_account_breadth_in_15_minute_windows.png
 !screenshots/10_password_spraying_alert_configuration.png
+
+# Future learning components retained locally, outside the portfolio scope.
+/scripts/
+/tests/
+/queries/
+/detections/
+/data/
+/reports/
+/INTERVIEW_PREP.md
+/docs/AUTOMATION.md
+/docs/PYTHON_WALKTHROUGH.md
+/docs/REST_API.md
+/docs/SCHEDULED_ALERTS.md
+/docs/SENTINEL_TRANSFER.md
+/docs/VALIDATION.md
