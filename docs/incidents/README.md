@@ -1,6 +1,6 @@
-# Analyst incident reports
+# Splunk incident investigation reports
 
-[INC-001: Suspected account compromise involving quinn.bell](INC-001-quinn-bell.md) is based on the analyst's interview answers, saved Splunk screenshots and narrowly scoped CSV verification during report preparation. It contains investigation details; readers wishing to investigate the dataset blindly should defer reading it.
+[INC-001: Suspected account compromise involving quinn.bell](INC-001-quinn-bell.md) documents a practical investigation of synthetic Windows authentication activity in Splunk Enterprise. It presents the event timeline, SPL searches, screenshot evidence, findings, confidence assessment and recommended response actions. Readers wishing to investigate the dataset blindly should defer reading the report.
 
 The report uses relative image links to existing screenshot files. All ten reviewed project screenshots are included in version control through explicit `.gitignore` exceptions. The first six support this report. Additional captures must be reviewed and deliberately included before publication.
 

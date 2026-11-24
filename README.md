@@ -17,7 +17,7 @@ Read [INC-001: Suspected account compromise involving quinn.bell](docs/incidents
 
 The report includes the investigation timeline, searches actually shown in the evidence, six embedded screenshots, confidence assessment and recommended containment/remediation. Authentication success is established in the simulated records; unauthorized access remains unconfirmed. No containment or remediation is claimed as performed.
 
-The write-up is based on the analyst's investigation and answers, with writing assistance for organization and accuracy. Proposed improvements are separated from completed work.
+This repository demonstrates practical Splunk experience through authentication log analysis, evidence correlation, saved search results and a structured incident response report. The report separates observed findings from proposed improvements and recommended response actions.
 
 ## Evidence
 
