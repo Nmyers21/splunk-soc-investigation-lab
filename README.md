@@ -57,4 +57,4 @@ Python automation, API integration, reusable code libraries and automated tests 
 
 ## Publication status
 
-This repository is private for review. Instructor materials, credentials, private exports and unused learning components are excluded from the current tracked files. Existing screenshot names and dataset bytes are preserved.
+This repository is public and presents a simulated Splunk investigation with supporting evidence and an incident report. Instructor materials, credentials, private exports and unused learning components are excluded from the current tracked files. Existing screenshot names and dataset bytes are preserved.
